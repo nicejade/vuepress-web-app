@@ -3,7 +3,7 @@ const helper = require('./../helper/')
 module.exports = {
   repo: 'nicejade/vuepress-web-app',
   editLinks: true,
-  docsDir: 'docs',
+  docsDir: './dist',
   locales: {
     '/': {
       label: '简体中文',

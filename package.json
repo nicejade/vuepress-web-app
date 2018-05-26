@@ -4,7 +4,8 @@
   "description": "Web applications built with Vuepress",
   "scripts": {
     "start": "vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
