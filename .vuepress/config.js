@@ -1,5 +1,6 @@
 const themeConfig = require('./themeConfig')
-
+const buildConfig = require('./buildConfig'
+)
 module.exports = {
   base: "/",
   // 存放“生成静态的 HTML 文件”路径;
@@ -20,5 +21,6 @@ module.exports = {
       description: '静晴轩别苑'
     }
   },
+  configureWebpack: buildConfig.configureWebpack,
   themeConfig
 }
