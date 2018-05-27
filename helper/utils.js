@@ -23,19 +23,20 @@ module.exports = {
     @param: {tille, relativePath}
     @date: 2018-05-25
   */
-  genSidebarConfig (title, relativePath = '') {
+  genSidebarConfig (title, relativePath = '', isWithReadMe = false) {
     const fileNameList = this.findSyncFolderName(relativePath)
-    const sidebarConfig = fileNameList.filter(item => {
+    let sidebarConfig = fileNameList.filter(item => {
         return item !== 'README.md'
       }).map(item => {
         return item.replace('.md', '')
       })
+    sidebarConfig = isWithReadMe ? [''].concat(sidebarConfig) : sidebarConfig
 
     return [
       {
         title,
         collapsable: false,
-        children: [''].concat(sidebarConfig)
+        children: sidebarConfig
       }
     ]
   }

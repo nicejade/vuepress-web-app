@@ -15,5 +15,6 @@
   "license": "MIT",
   "engines": {
     "node": ">=8"
-  }
+  },
+  "dependencies": {}
 }

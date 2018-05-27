@@ -2,7 +2,7 @@ const helper = require('./../helper/')
 
 module.exports = {
   repo: 'nicejade/vuepress-web-app',
-  editLinks: true,
+  editLinks: false,
   docsDir: './dist',
   locales: {
     '/': {
@@ -12,16 +12,22 @@ module.exports = {
       lastUpdated: '上次更新',
       nav: [
         {
-          text: '个人博客',
+          text: '博客',
           link: '/zh/blog/',
         },
         {
-          text: '我的应用',
-          link: '/zh/applications/'
+          text: '文章',
+          link: '/zh/article/'
+        },
+        {
+          text: '应用',
+          link: '/zh/application/'
         }
       ],
       sidebar: {
-        '/zh/blog/': helper.utils.genSidebarConfig('个人博客', './zh/blog/')
+        '/zh/blog/': helper.utils.genSidebarConfig('轩帅の博客', './zh/blog/', false),
+        '/zh/article/': helper.utils.genSidebarConfig('最新文章', './zh/article/', false),
+        '/zh/application/': helper.utils.genSidebarConfig('轩帅の应用', './zh/application/')
       }
     },
     '/en/': {
@@ -31,16 +37,12 @@ module.exports = {
       lastUpdated: 'Last Updated',
       nav: [
         {
-          text: 'My Blog',
-          link: '/en/blog/',
-        },
-        {
-          text: 'My Applications',
-          link: '/en/applications/'
+          text: 'Application',
+          link: '/en/application/'
         }
       ],
       sidebar: {
-        '/en/blog/': helper.utils.genSidebarConfig('Blog', './en/blog/')
+        '/en/application/': helper.utils.genSidebarConfig('Application', './en/application/')
       }
     }
   }
