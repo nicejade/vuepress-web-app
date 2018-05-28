@@ -16,5 +16,7 @@
   "engines": {
     "node": ">=8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vue-carousel": "^0.7.3"
+  }
 }

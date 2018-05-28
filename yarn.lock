@@ -2,3 +2,6 @@
 # yarn lockfile v1
 
 
+vue-carousel@^0.7.3:
+  version "0.7.3"
+  resolved "http://registry.npm.taobao.org/vue-carousel/download/vue-carousel-0.7.3.tgz#5febab5bb3be4bd12ada37df22efd189f8789465"
