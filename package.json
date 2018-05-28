@@ -17,6 +17,6 @@
     "node": ">=8"
   },
   "dependencies": {
-    "vue-carousel": "^0.7.3"
+    "element-ui": "^2.4.0"
   }
 }

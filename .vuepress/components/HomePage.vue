@@ -1,18 +1,16 @@
 <template>
   <div class="home-page">
-    <carousel :per-page="1" :mouse-drag="true">
-      <slide v-for="item in items">
+    <el-carousel height="250px">
+      <el-carousel-item v-for="item in items" :key="item.alt">
         <a :href="item.path" target="_blank" rel="noreferrer noopener">
           <img :src="item.image" :alt="item.alt">
         </a>
-      </slide>
-    </carousel>
+      </el-carousel-item>
+    </el-carousel>
   </div>
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel'
-
 export default {
   name: 'HomePage',
 
@@ -44,8 +42,6 @@ export default {
   },
 
   components: {
-    Carousel,
-    Slide
   },
 
   methods: {
