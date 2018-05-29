@@ -1,2 +1,14 @@
+width-mobile = 768px
+mobile = "only screen and (max-width: " + width-mobile + ")"
+
 blockquote
   font-size: 1rem !important
+
+.home
+  .hero
+    img
+      max-height: 266px
+
+.el-carousel__indicators
+  @media mobile
+    bottom: 10px;

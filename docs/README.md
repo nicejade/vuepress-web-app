@@ -1,5 +1,6 @@
 ---
 home: true
+heroImage: /love.svg
 actionText: 前往访问 →
 actionLink: /zh/blog/
 features:
