@@ -16,5 +16,7 @@
   "engines": {
     "node": ">=8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "element-ui": "^2.4.0"
+  }
 }

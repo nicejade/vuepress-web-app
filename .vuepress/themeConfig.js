@@ -22,12 +22,15 @@ module.exports = {
         {
           text: '应用',
           link: '/zh/application/'
+        },
+        {
+          text: '招聘',
+          link: '/zh/recruit/'
         }
       ],
       sidebar: {
         '/zh/blog/': helper.utils.genSidebarConfig('轩帅の博客', './zh/blog/', false),
-        '/zh/article/': helper.utils.genSidebarConfig('最新文章', './zh/article/', false),
-        '/zh/application/': helper.utils.genSidebarConfig('轩帅の应用', './zh/application/')
+        '/zh/article/': helper.utils.genSidebarConfig('最新文章', './zh/article/', false)
       }
     },
     '/en/': {

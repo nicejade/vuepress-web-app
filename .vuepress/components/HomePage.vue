@@ -1,12 +1,12 @@
 <template>
   <div class="home-page">
-    <pre class="text-center">
-      深居俯夹城，春去夏犹清。
-      <strong>天意怜幽草，人间重晚晴。</strong>
-      并添高阁迥，微注小窗明。
-      越鸟巢干后，归飞体更轻。
-              ———李商隐《晚晴》
-    </pre>
+    <el-carousel height="250px">
+      <el-carousel-item v-for="item in items" :key="item.alt">
+        <a :href="item.path" target="_blank" rel="noreferrer noopener">
+          <img :src="item.image" :alt="item.alt">
+        </a>
+      </el-carousel-item>
+    </el-carousel>
   </div>
 </template>
 
@@ -16,7 +16,32 @@ export default {
 
   data () {
     return {
+      items: [
+        {
+          path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
+          image: '//u.djicdn.com/uploads/ad_image_file/file/1234/970_250.jpg',
+          alt: '特洛Tello-迷你无人机'
+        },
+        {
+          path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
+          image: '//u.djicdn.com/uploads/ad_image_file/file/1242/970_250.jpg',
+          alt: '特洛Tello-益智编程无人机'
+        },
+        {
+          path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
+          image: '//u.djicdn.com/uploads/ad_image_file/file/992/970___250.jpg',
+          alt: '大疆无人机-DJI "御" Mavic Air'
+        },
+        {
+          path: '//click.dji.com/AK7CeCvGmHpnM3lP5Va7?pm=link&as=0004',
+          image: '//u.djicdn.com/uploads/ad_image_file/file/449/970x250.jpg',
+          alt: '大疆无人机-精灵 PHANTOM 4 ADVANCED'
+        }
+      ]
     }
+  },
+
+  components: {
   },
 
   methods: {
@@ -26,9 +51,16 @@ export default {
 
 <style lang="stylus">
 .home-page
-  height: calc(30vh - 3.6rem);
-  background: linear-gradient(to left bottom,hsl(3, 100%, 85%) 0%,hsl(190, 100%, 85%) 100%);
   .text-center{
     text-align: center;
   }
+  .VueCarousel
+    .VueCarousel-pagination
+      .VueCarousel-dot
+        .VueCarousel-dot-button
+          width: 12px !important
+          height: 12px !important
+          &:focus
+            border: none !important
+            outline: none !important
 </style>
