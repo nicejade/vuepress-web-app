@@ -1,6 +1,6 @@
 <template>
-  <div class="home-page">
-    <el-carousel height="250px">
+  <div class="advertisement-moudle">
+    <el-carousel :height="carouselHeight">
       <el-carousel-item v-for="item in items" :key="item.alt">
         <a :href="item.path" target="_blank" rel="noreferrer noopener">
           <img :src="item.image" :alt="item.alt">
@@ -12,10 +12,11 @@
 
 <script>
 export default {
-  name: 'HomePage',
+  name: 'Advertisement',
 
   data () {
     return {
+      carouselHeight: '250px',
       items: [
         {
           path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
@@ -41,7 +42,16 @@ export default {
     }
   },
 
+  computed: {
+  },
+
   components: {
+  },
+
+  mounted () {
+    const carouselWidth = Math.min(document.body.clientWidth, 970)
+    const carouselHeight = Math.ceil((250 * carouselWidth) / 970)
+    this.carouselHeight = `${carouselHeight}px`
   },
 
   methods: {
@@ -50,7 +60,7 @@ export default {
 </script>
 
 <style lang="stylus">
-.home-page
+.advertisement-moudle
   .text-center{
     text-align: center;
   }

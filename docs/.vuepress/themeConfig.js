@@ -29,8 +29,8 @@ module.exports = {
         }
       ],
       sidebar: {
-        '/zh/blog/': helper.utils.genSidebarConfig('轩帅の博客', './zh/blog/', false),
-        '/zh/article/': helper.utils.genSidebarConfig('最新文章', './zh/article/', false)
+        '/zh/blog/': helper.utils.genSidebarConfig('轩帅の博客', './docs/zh/blog/', false),
+        '/zh/article/': helper.utils.genSidebarConfig('最新文章', './docs/zh/article/', false)
       }
     },
     '/en/': {
@@ -43,10 +43,7 @@ module.exports = {
           text: 'Application',
           link: '/en/application/'
         }
-      ],
-      sidebar: {
-        '/en/application/': helper.utils.genSidebarConfig('Application', './en/application/')
-      }
+      ]
     }
   }
 }

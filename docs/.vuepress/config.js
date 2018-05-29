@@ -1,10 +1,10 @@
 const themeConfig = require('./themeConfig')
-const buildConfig = require('./buildConfig'
-)
+const buildConfig = require('./buildConfig')
+
 module.exports = {
   base: "/",
   // 存放“生成静态的 HTML 文件”路径;
-  dest: './dist',
+  dest: './docs/dist',
   head: [
     ['link', { rel: 'icon', href: `/favicon.ico` }],
   ],
@@ -14,12 +14,12 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '静晴轩别苑',
-      description: '静晴轩别苑'
+      description: '繁华尽处，寻一无人山谷，建一木制小屋，铺一青石小路，与你晨钟暮鼓，安之若素。'
     },
     '/en/': {
       lang: 'en-US',
-      title: '静晴轩别苑',
-      description: '静晴轩别苑'
+      title: 'JADE LOVE HOME',
+      description: 'Wherever you go， whatever you do， I will be right here waiting for you.'
     }
   },
   configureWebpack: buildConfig.configureWebpack,
