@@ -6,7 +6,7 @@ module.exports = {
   // 存放“生成静态的 HTML 文件”路径;
   dest: './docs/dist',
    head: [
-    ['link', { rel: 'icon', href: `/logo.svg` }],
+    ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
