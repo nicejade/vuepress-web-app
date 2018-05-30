@@ -1,5 +1,5 @@
 <template>
-  <div class="component-item-list">
+  <div class="component-article-list">
     <el-card
       v-for="item in frontmatter.items" shadow="hover"
       @click.native="handlerClick(item.link)">
@@ -13,6 +13,8 @@
 
 <script>
 export default {
+  name: "ArticleList",
+
   computed: {
     frontmatter () {
       return this.$page.frontmatter
@@ -31,7 +33,7 @@ export default {
 </script>
 
 <style lang="stylus">
-.component-item-list
+.component-article-list
   .el-card
     margin 10px
     cursor pointer
