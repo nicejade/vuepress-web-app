@@ -37,7 +37,7 @@ export default {
     background-color #ffffff
     border 1px solid #ebeef5
     box-shadow 0 2px 12px 0 rgba(0,0,0,.1)
-    padding .666rem 1rem
+    padding .6rem 1rem
     margin .5rem 1rem
     border-radius 1.5rem
 </style>

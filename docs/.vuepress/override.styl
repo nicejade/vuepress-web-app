@@ -6,11 +6,26 @@ mobile = "only screen and (max-width: " + width-mobile + ")"
 blockquote
   font-size: 1rem !important
 
-.home
-  .hero
-    img
-      max-height: 266px
+#app
+  .home
+    box-sizing border-box
+    width 100%
+    height calc(100vh - 3.6rem)
+    display flex;
+    flex-direction column
+    justify-content center
+    .hero
+      h1
+        margin 1rem auto
+        font-size 2.1rem
+      img
+        margin 0 auto
+        width 7.5rem
+        height 7.5rem
+      .description
+        font-size 1.2rem
+        margin 0 auto
 
-.el-carousel__indicators
-  @media mobile
-    bottom: 10px;
+  .el-carousel__indicators
+    @media mobile
+      bottom 10px
