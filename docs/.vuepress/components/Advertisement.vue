@@ -16,7 +16,7 @@ export default {
 
   data () {
     return {
-      carouselHeight: '250px',
+      carouselHeight: '100px',
       items: [
         {
           path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
@@ -49,7 +49,8 @@ export default {
   },
 
   mounted () {
-    const carouselWidth = Math.min(document.body.clientWidth, 970)
+    const containerWidth = document.body.clientWidth - ((16.4 + 2 * 2) * 16)
+    const carouselWidth = Math.min(containerWidth, 970)
     const carouselHeight = Math.ceil((250 * carouselWidth) / 970)
     this.carouselHeight = `${carouselHeight}px`
   },
