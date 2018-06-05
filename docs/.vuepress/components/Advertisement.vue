@@ -49,7 +49,9 @@ export default {
   },
 
   mounted () {
-    const containerWidth = document.body.clientWidth - ((16.4 + 2 * 2) * 16)
+    const isMiniScreen = document.body.clientWidth <= 768
+    const spaceWidth = isMiniScreen ? (1.5 * 2 * 16) : ((16.4 + 2 * 2) * 16)
+    const containerWidth = document.body.clientWidth - spaceWidth
     const carouselWidth = Math.min(containerWidth, 970)
     const carouselHeight = Math.ceil((250 * carouselWidth) / 970)
     this.carouselHeight = `${carouselHeight}px`
