@@ -1,14 +1,6 @@
-<p align="center"><a href="https://nice.lovejade.cn" target="_blank"><img width="100"src="https://nice.lovejade.cn/love.svg"></a></p>
+# 静晴轩别苑
 
-<h1 align="center">静晴轩别苑</h1>
-
-<div align="center">
-  <strong>
-    采用 <a href="https://vuepress.vuejs.org/">VuePress</a> 构建的 Web 应用程序：https://nice.lovejade.cn
-  </strong>
-</div>
-
-## 目标与哲学
+[静晴轩别苑](https://nice.lovejade.cn)，由 `VuePress` 所驱动；部署于 `Github Page`；采用 `Google Analytics` 作为分析方案；支持 `Pwa`，如添加 Icon 到主屏幕，缓存页面支持离线访问等。
 
 [静晴轩别苑](https://nice.lovejade.cn)的诞生，其初衷完全是为了体验 `VuePress`: Vue 驱动的静态网站生成器。[VuePress](https://vuepress.vuejs.org/) 由两部分组成：一部分是支持用 `Vue` 开发主题的极简静态网站生成器，另一个部分是为书写技术文档而优化的默认主题。它的诞生初衷是为了支持 `Vue` 及其子项目的文档需求。
 
@@ -30,21 +22,4 @@
 
 相比与 `Nuxt`、 `Hexo`、`Jekyll`、`Docsify`、`GitBook` 等工具，`VuePress` 在不同方向，都拥有着巨大优势，并且仍在开发更新当中；如果你有搭建个人博客、技术文档的需求，那么 `VuePress` 将是超棒的选择。
 
-## 相关链接
-
-- [About Me](https://about.me/nicejade)
-- [**倾城之链**](https://nicelinks.site?from=github)
-- [晚晴幽草轩](https://jeffjade.com/nicelinks)
-- [天意人间舫](https://blog.lovejade.cn/)
-- [新浪微博](https://weibo.com/jeffjade)
-- [知乎主页](https://www.zhihu.com/people/yang-qiong-pu/)
-- [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
-- [SegmentFault](https://segmentfault.com/u/jeffjade)
-- [Twitter](https://twitter.com/jeffjade2)
-- [Facebook](https://www.facebook.com/yang.gang.jade)
-
-## 许可执照
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2018-present, [nicejade](https://about.me/nicejade)
+<Advertisement />
