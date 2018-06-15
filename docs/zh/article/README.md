@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 使用ESLint ＆ Prettier美化Vue代码
+    description: Prettier 是一个有见识的代码格式化工具。它通过解析代码并使用自己的规则重新打印它，并考虑最大行长来强制执行一致的样式，并在必要时包装代码。如今，它已成为解决所有代码格式问题的优选方案；您可以结合 ESLint 和 Prettier，检测代码中潜在问题的同时，还能统一团队代码风格，从而促使写出高质量代码，来提升工作效率。
+    link: beautify-vue-by-eslint-and-prettier
   - title: 轩帅的博客之旅
     description: 回顾这些年，所搭建的那些个人博客(基于 Hexo、Jekyll、VuePress 等)，以及体验过的写作分享平台(如：博客园、简书、微信公众号等)。
     link: talk-about-my-blogs
