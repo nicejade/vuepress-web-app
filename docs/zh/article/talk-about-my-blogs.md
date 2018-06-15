@@ -13,15 +13,19 @@ lang: zh-CN
 
 ## [晚晴幽草轩](https://nice.lovejade.cn/zh/blog/hexo-blog.html)
 
-坦白说，最开始的“写博”，其实是始自于**纯粹的搬运工**：即遇到觉得好的文章就给移植了来。年随时驰间，技术也有所增长，逐渐会注入有自己的观点；当积淀的多了，也就真正开始写属于自己的技术文章；正如在[云轩奕鹤](https://www.cnblogs.com/jadeboy/)副标题中引用的文字: “勤學如春起之苗，不見其增，日有所長。綴學如磨刀之石，不見其損，日有所虧”。在学于思之后，不停折腾之间，越发感觉到`个人品牌`的重要性，这便是个人主博客[晚晴幽草轩](https://jeffjade.com/)诞生的契机。从 `jeffjade.com` 域名注册时间来看，那是在 2015 年 4 月。
+[晚晴幽草轩](https://jeffjade.com/)，由 `Hexo` 所驱动；部署于 `Coding page`；基于 `Github Issue` 作评论系统；使用 `Gitalk` 作为评论插件；有 `Google Analytics`、`Clustrmaps`、`百度统计`三套分析方案；支持 `Pwa`，如添加 Icon 到主屏幕，缓存页面支持离线访问等。
 
 ![晚晴幽草轩](https://image.nicelinks.site/hexo-blog.png)
 
+坦白说，最开始的“写博”，其实是始自于**纯粹的搬运工**：即遇到觉得好的文章就给移植了来。年随时驰间，技术也有所增长，逐渐会注入有自己的观点；当积淀的多了，也就真正开始写属于自己的技术文章；正如在[云轩奕鹤](https://www.cnblogs.com/jadeboy/)副标题中引用的文字: “勤學如春起之苗，不見其增，日有所長。綴學如磨刀之石，不見其損，日有所虧”。在学于思之后，不停折腾之间，越发感觉到`个人品牌`的重要性，这便是个人主博客[晚晴幽草轩](https://jeffjade.com/)诞生的契机。从 `jeffjade.com` 域名注册时间来看，那是在 2015 年 4 月。
+
 ## [天意人间舫](https://nice.lovejade.cn/zh/blog/jekyll-blog.html)
 
-记得是 14 年的时候，就有使用 `jekyll` 来折腾个人博客；只是那时候，其文档以英文为主，相关资料又颇显匮乏；邂逅了 `hexo`，就被“移情别恋”，也是因此成就了主博：[晚晴幽草轩](https://jeffjade.com/)；事实上，对于 `Jekyll`，也是念念难忘，在接触到一份挺欢喜的响应式主题后，就分分钟又塑造一博客；在历经几次三番的优化（调`UI`、自定义域名、引入 AnchorJS、渐进式支持等等）之后，成就了现在的[天意人间舫](https://blog.lovejade.cn/)；对于此博客的功用、名字的由来等，在[晚晴幽草轩,天意人间舫](https://jeffjade.com/2016/01/22/2016-01-22-jeffjade-and-nicejade/)一文中，有过专门记载。从 Github 提交时间来看，这始于 2015 年 10 月份左右。
+[天意人间舫](https://blog.lovejade.cn/)，由 `Jekyll` 所驱动；部署于 `Coding page` & `Github Page`；基于 `Github Issue` 作评论系统；使用 `Gitalk` 作为评论插件；采用 `Google Analytics` 作为分析方案；支持 `Pwa`，如添加 Icon 到主屏幕，缓存页面支持离线访问等。
 
 ![天意人间舫](https://image.nicelinks.site/jekyll-blog.png)
+
+记得是 14 年的时候，就有使用 `jekyll` 来折腾个人博客；只是那时候，其文档以英文为主，相关资料又颇显匮乏；邂逅了 `hexo`，就被“移情别恋”，也是因此成就了主博：[晚晴幽草轩](https://jeffjade.com/)；事实上，对于 `Jekyll`，也是念念难忘，在接触到一份挺欢喜的响应式主题后，就分分钟又塑造一博客；在历经几次三番的优化（调`UI`、自定义域名、引入 AnchorJS、渐进式支持等等）之后，成就了现在的[天意人间舫](https://blog.lovejade.cn/)；对于此博客的功用、名字的由来等，在[晚晴幽草轩,天意人间舫](https://jeffjade.com/2016/01/22/2016-01-22-jeffjade-and-nicejade/)一文中，有过专门记载。从 Github 提交时间来看，这始于 2015 年 10 月份左右。
 
 ## [晚晴幽草](https://nice.lovejade.cn/zh/blog/jianshu-blog.html)
 
