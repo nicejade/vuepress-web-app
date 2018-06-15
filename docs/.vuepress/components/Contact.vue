@@ -14,17 +14,15 @@ export default {
   name: "Contact",
 
   computed: {
-    contacts () {
-      return this.$page.frontmatter.contacts
+    contacts() {
+      return this.$page.frontmatter.contacts;
     }
   },
 
-  mounted () {
-  },
+  mounted() {},
 
-  methods: {
-  }
-}
+  methods: {}
+};
 </script>
 
 <style lang="stylus">
