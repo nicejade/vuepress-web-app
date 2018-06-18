@@ -3,7 +3,7 @@
     <el-carousel :height="carouselHeight" :interval="5000" arrow="always">
       <el-carousel-item v-for="item in items" :key="item.alt">
         <a :href="item.path" target="_blank" rel="noreferrer noopener">
-          <img :src="item.image" :alt="item.alt">
+          <img class="advertisement-img" :src="item.image" :alt="item.alt">
         </a>
       </el-carousel-item>
     </el-carousel>
@@ -37,11 +37,6 @@ export default {
           path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
           image: '//u.djicdn.com/uploads/ad_image_file/file/992/970___250.jpg',
           alt: '大疆无人机-DJI "御" Mavic Air'
-        },
-        {
-          path: '//click.dji.com/AK7CeCvGmHpnM3lP5Va7?pm=link&as=0004',
-          image: '//u.djicdn.com/uploads/ad_image_file/file/449/970x250.jpg',
-          alt: '大疆无人机-精灵 PHANTOM 4 ADVANCED'
         }
       ]
     }
@@ -59,7 +54,10 @@ export default {
     const containerWidth = document.body.clientWidth - spaceWidth
     const carouselWidth = Math.min(containerWidth, 970)
     const carouselHeight = Math.ceil((250 * carouselWidth) / 970)
+
     this.carouselHeight = `${carouselHeight}px`
+    const carContainer = document.getElementsByClassName('el-carousel__container')[0]
+    carContainer.style.height = `${carouselHeight}px`
   },
 
   methods: {
@@ -72,6 +70,8 @@ export default {
   .text-center{
     text-align: center;
   }
+  .advertisement-img
+    min-height: 60px;
   .VueCarousel
     .VueCarousel-pagination
       .VueCarousel-dot
