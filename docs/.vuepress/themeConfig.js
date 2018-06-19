@@ -4,6 +4,12 @@ module.exports = {
   repo: 'nicejade/vuepress-web-app',
   editLinks: false,
   docsDir: './dist',
+  algolia: {
+    apiKey: '6290673b2059b2332d64c13d248877ad',
+    indexName: 'lovejade',
+    inputSelector: '',
+    debug: false
+  },
   locales: {
     '/': {
       label: '简体中文',
