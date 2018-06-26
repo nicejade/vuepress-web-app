@@ -134,7 +134,7 @@ apm install prettier-atom
 { "keys": ["command+alt+f"], "command": "js_prettier" }
 ```
 
-同样，你也根据自己的喜好/习惯，为 `SublimeText` 编辑器设定 Prettier 美化风格；更多设置、使用细节，可参见 [SublimeJsPrettier#Usage](https://github.com/jonlabelle/SublimeJsPrettier#usage)；个人设定风格如下：
+同样，你也根据自己的喜好/习惯，为 `SublimeText` 编辑器设定 Prettier 美化风格；更多设置、使用细节，可参见 [SublimeJsPrettier#Usage](https://github.com/jonlabelle/SublimeJsPrettier#usage)；个人设定风格如下(操作文件位置：Preferences → Package Settings → JsPrettier → Settings - User)：
 
 ```json
 {
