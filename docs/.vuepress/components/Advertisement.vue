@@ -19,11 +19,6 @@ export default {
       carouselHeight: '100px',
       items: [
         {
-          path: '//click.dji.com/AKluCktcE4Nh40lur72f1Q?pm=link&as=0004',
-          image: '//u.djicdn.com/uploads/ad_image_file/file/1315/970___250.jpg',
-          alt: '大疆无人机- 618 大促销'
-        },
-        {
           path: '//click.dji.com/AHT8n4-15xfguKCaOzzEPA?pm=link&as=0004',
           image: '//u.djicdn.com/uploads/ad_image_file/file/1234/970_250.jpg',
           alt: '特洛Tello-迷你无人机'
