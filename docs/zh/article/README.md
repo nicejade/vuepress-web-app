@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 「快应用」开发体验纪要
+    description: 快应用是基于手机硬件平台的新型应用形态，标准是由主流手机厂商组成的快应用联盟联合制定。其标准的诞生将在研发接口、能力接入、开发者服务等层面建设标准平台，以平台化的生态模式对个人开发者和企业开发者全品类开放。快应用具备传统 APP 完整的应用体验，无需安装、即点即用；覆盖 10 亿设备，与操作系统深度集成，探索新型应用场景。
+    link: develop-quick-app-experience-notes
   - title: 使用ESLint ＆ Prettier美化Vue代码
     description: Prettier 是一个有见识的代码格式化工具。它通过解析代码并使用自己的规则重新打印它，并考虑最大行长来强制执行一致的样式，并在必要时包装代码。如今，它已成为解决所有代码格式问题的优选方案；您可以结合 ESLint 和 Prettier，检测代码中潜在问题的同时，还能统一团队代码风格，从而促使写出高质量代码，来提升工作效率。
     link: beautify-vue-by-eslint-and-prettier

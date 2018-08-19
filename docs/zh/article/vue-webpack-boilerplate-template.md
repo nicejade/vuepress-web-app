@@ -9,6 +9,15 @@ lang: zh-CN
 
 ![题图来自 picjumbo.com](http://upload-images.jianshu.io/upload_images/207604-a54643052962985d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+---
+
+(Update@2018-08-19)经过多时的酝酿，Vue 终于(2018/08/12)发布了正式发布 [Vue CLI 3.0](https://cli.vuejs.org/)，它也将为很多开发者带来期待已久的新特性。相比于之前版本，它经历了很大程度上的重构，目的是：尽可能减少现代前端工具在配置上的烦恼，尤其是在开发者将多个工具混合使用时；尽可能在工具链中加入最佳实践，并让其成为 `Vue` 应用程序的默认实践。除了具有丰富的内置功能之外，还有无需 Eject 即可配置、可扩展的插件系统、完整的图形用户界面 (GUI）、Instant Prototyping、Modern Mode 等功能与特性。还未使用的朋友们，可以开始尝鲜了；如果你想更为便捷的体验，这里开源了 [Awesome Vue-Cli3 Example
+](https://github.com/nicejade/awesome-vue-cli3-example)可供参考，她除了集成了此开箱即用模板的大部分功能，此外还将保持探索、持续更新。
+
+(Update@2018-06-15) 经过多时的发展，`vue-cli3` 已经发布 `RC` 版本；在这个版本，它集成了更多丰富的功能，以及更多默认配置，可通过附带的图形用户界面创建、开发和管理项目。可查看 [Vue CLI](https://cli.vuejs.org/) 文档，查看更多相关信息。[awesome-vue-cli3-example](https://github.com/nicejade/awesome-vue-cli3-example)，是基于 `Vue-Cli3` 所搭建的 `Vue` 项目使用示例，旨在方便开发人员更便捷地使用 `Vue-cli3`，并更高效合理地构建 `Web` 应用程序。如果您乐于追求更优质的开发体验，并敢于冒险，不妨一起来展望，`Vue` 项目新的打开方式。
+
+---
+
 ### **关于此 [Vue、Webpack 脚手架模版](https://github.com/nicejade/vue-boilerplate-template)**
 
 这是一个用以开发 Web 单页应用的脚手架项目；谨以 `Vue` 为开发框架、`Webpack` 为构建工具，`element-ui` 为 UI 组件库；同时注入了 `vue-router`、`vuex`、`vue-i18n`，用以支持单页应用，复杂的状态管理，以及多语言设定；另外依赖了 `lodash`、`dayjs`、`js-cookie` 等开发工具库，以提升页面开发效率。当然，在实际项目中，可根据实际需要自由移除或者修改。在此项目中提供了两个演示页，您可以[在线查看](https://blog.lovejade.cn/vue-boilerplate-template/)。
