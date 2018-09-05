@@ -17,7 +17,12 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   ga: 'UA-119945815-1',
-  serviceWorker: true,
+  serviceWorker: {
+    updatePopup: {
+      message: "嗨，朋友，本站已更新.",
+      buttonText: "刷新"
+    }
+  },
   locales: {
     '/': {
       lang: 'zh-CN',
