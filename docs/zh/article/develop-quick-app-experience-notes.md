@@ -21,6 +21,8 @@ meta:
 **备注**：如果你对「快应用」感兴趣，那么在 `Github` 维护的这份[快应用资源汇集](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/quickapp-tutorial.md)清单，或将是你的最佳参考消息。
 :::
 
+![快应用 即点即用](https://image.nicelinks.site/quickapp-red.svg)
+
 ## 快应用特点
 
 下面列出些关于「快应用」特点，这将有助于对它有更深刻的理解；
