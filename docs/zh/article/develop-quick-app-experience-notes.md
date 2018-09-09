@@ -11,7 +11,7 @@ meta:
 
 何谓[「快应用」](https://www.quickapp.cn/)呢？它是基于手机硬件平台的新型应用形态，标准是由主流手机厂商组成的`快应用联盟`联合制定。其标准的诞生将在研发接口、能力接入、开发者服务等层面建设标准平台，以平台化的生态模式对个人开发者和企业开发者全品类开放。[快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)具备传统 APP 完整的应用体验，`无需安装、即点即用`；`覆盖 10 亿设备`，`与操作系统深度集成，探索新型应用场景`。快应用 ──**复杂生活的简单答案，让生活更顺畅** ── 来自 [快应用官方网站 | 倾城之链](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)。
 
-![快应用开发体验纪要](https://www.quickapp.cn/assets/images/home/video.png)
+![快应用开发体验纪要](https://image.nicelinks.site/quickapp.png)
 
 ### 🎉 本文目录 🎉
 
