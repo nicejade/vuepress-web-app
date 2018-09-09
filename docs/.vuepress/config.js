@@ -19,7 +19,7 @@ module.exports = {
   ga: 'UA-119945815-1',
   serviceWorker: {
     updatePopup: {
-      message: "嗨，朋友，本站已更新.",
+      message: "🎉 发现新内容可用 ✏️",
       buttonText: "刷新"
     }
   },
