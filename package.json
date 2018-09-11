@@ -17,6 +17,13 @@
     "node": ">=8"
   },
   "dependencies": {
-    "element-ui": "^2.4.0"
+    "autosize": "^4.0.2",
+    "axios": "^0.18.0",
+    "date-fns": "^1.29.0",
+    "element-ui": "^2.4.0",
+    "github-markdown-css": "^2.10.0",
+    "md5": "^2.2.1",
+    "node-polyglot": "^2.3.0",
+    "raw-loader": "^0.5.1"
   }
 }

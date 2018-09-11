@@ -7,10 +7,15 @@
         </a>
       </el-carousel-item>
     </el-carousel>
+    <div id="gitalk-container" v-if="$site.themeConfig.comment">
+      <Comment />
+    </div>
   </div>
 </template>
 
 <script>
+import Comment from './comment'
+
 export default {
   name: 'Advertisement',
 
@@ -46,6 +51,7 @@ export default {
   },
 
   components: {
+    Comment
   },
 
   mounted () {
@@ -81,4 +87,13 @@ export default {
           &:focus
             border: none !important
             outline: none !important
+#gitalk-container
+  margin 1em 0 0
+  padding .5em 2% 1em
+  box-shadow 0 2px 12px 0 rgba(0,0,0,.1)
+  .gitment-comment-header
+    background-color transparent
+    .gt-header
+      .gt-btn
+        background-color color-blue
 </style>

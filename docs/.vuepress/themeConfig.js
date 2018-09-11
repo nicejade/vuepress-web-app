@@ -10,6 +10,15 @@ module.exports = {
     inputSelector: '',
     debug: false
   },
+  comment: {
+    clientID: '047582532241759ff101',
+    clientSecret: 'fd8193330fb5748ccaec4d97b7495d7d7e175021',
+    repo: 'vuepress-web-app',
+    owner: 'nicejade',
+    admin: ['nicejade'],
+    perPage: 5,
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  },
   locales: {
     '/': {
       label: '简体中文',
