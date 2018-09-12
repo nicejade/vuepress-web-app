@@ -22,4 +22,10 @@
 
 相比与 `Nuxt`、 `Hexo`、`Jekyll`、`Docsify`、`GitBook` 等工具，`VuePress` 在不同方向，都拥有着巨大优势，并且仍在开发更新当中；如果你有搭建个人博客、技术文档的需求，那么 `VuePress` 将是超棒的选择。
 
+---
+
+::: tip Updated@18-09-12
+早前在[晚晴幽草轩 | AboutMe](https://jeffjade.com/about-me/)中就有提到，关于博客评论系统的一路折腾历程；从`多说`，转战`网易云跟帖`，又尝试使用 `Gitment `，最终选择了 `Gitalk` 的过程。不支持评论的博客，是没有灵魂的，所以也为此基于 `Vuepress` 的最新博客，注入了评论；鉴于在发布是采用服务端渲染，所以直接使用 `Gitalk` 插件，会存在问题；因此有参考 [vuepress-theme-yubisaki](https://github.com/Bloss/vuepress-theme-yubisaki) 将其以组件形式内置进项目；后续考虑集成更多功能，使得此博客可以更加丰富而多彩。
+:::
+
 <Advertisement />
