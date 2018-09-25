@@ -30,9 +30,14 @@
 
 相比与 `Nuxt`、 `Hexo`、`Jekyll`、`Docsify`、`GitBook` 等工具，`VuePress` 在不同方向，都拥有着巨大优势，并且仍在开发更新当中；如果你有搭建个人博客、技术文档的需求，那么 `VuePress` 将是超棒的选择。
 
+## 附加功能
+
+- 添加基于 `Github Issue` 的评论功能(相当于内置 `Gitalk`)；只需修改 **.vuepress/themeConfig.js** 文件中 `comment` 字段配置即可；具体字段含义，可参见[Gitalk Options](https://github.com/gitalk/gitalk#options)；
+- 有添加 `element-ui` 依赖，以方便编写常用组件；此项目中，内置除了评论组件外，还有 `Advertisement`（广告）、`ArticleList`（文章列表）、`Contact`（联系方式）等；
+
 ## 如何使用
 
-可将项目 `Fork` 至自己的代码仓库，运行一下命令即可：
+可将项目 `Fork` 至自己的代码仓库，运行以下命令即可：
 
 ```bash
 git clone https://github.com/${your-github-id}/vuepress-web-app
