@@ -1,6 +1,7 @@
 ---
 title: 快应用之开发体验纪要
 lang: zh-CN
+datetime: 2018-09-09
 sidebar: auto
 meta:
   - name: description
