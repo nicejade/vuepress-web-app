@@ -44,6 +44,7 @@ module.exports = {
   },
   configureWebpack: buildConfig.configureWebpack,
   themeConfig,
+  evergreen: true,
   markdown: {
     // markdown-it-anchor 的选项
     anchor: { permalink: false },
