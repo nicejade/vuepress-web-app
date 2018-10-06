@@ -1,20 +1,19 @@
 {
   "name": "vuepress-web-app",
-  "version": "0.1.2",
+  "author": "nicejade",
+  "version": "0.1.3",
   "description": "Web applications built with Vuepress",
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "precommit-msg": "echo '🚧 Pre-commit checks...' && exit 0",
+    "prettier": "prettier --write '**/*.md'",
+    "prettier-watch": "onchange '**/*.md' -- prettier --write {{changed}}"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nicejade/vuepress-web-app"
-  },
-  "author": "nicejade",
-  "license": "MIT",
-  "engines": {
-    "node": ">=8"
   },
   "dependencies": {
     "autosize": "^4.0.2",
@@ -25,5 +24,32 @@
     "md5": "^2.2.1",
     "node-polyglot": "^2.3.0",
     "raw-loader": "^0.5.1"
+  },
+  "devDependencies": {
+    "husky": "^1.1.1",
+    "lint-staged": "^7.3.0",
+    "onchange": "^5.0.2",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run precommit-msg && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/**.{js,json,pcss,md,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "printWidth": 120,
+    "proseWrap": "never"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
   }
 }
