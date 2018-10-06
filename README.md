@@ -34,6 +34,7 @@
 
 - 添加基于 `Github Issue` 的评论功能(相当于内置 `Gitalk`)；只需修改 **.vuepress/themeConfig.js** 文件中 `comment` 字段配置即可；具体字段含义，可参见[Gitalk Options](https://github.com/gitalk/gitalk#options)；
 - 有添加 `element-ui` 依赖，以方便编写常用组件；此项目中，内置除了评论组件外，还有 `Advertisement`（广告）、`ArticleList`（文章列表）、`Contact`（联系方式）等；
+- 引入 `prettier`, `lint-staged`, `husky` 等依赖，从而使得写出更合乎‘规范’的 markdown；同时注入至 Git hooks，以确保你的代码库具有一致的风格；即使你正与团队合作编写，也不必为统一风格的问题而感到忧虑！
 
 ## 如何使用
 
