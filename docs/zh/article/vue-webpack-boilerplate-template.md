@@ -17,13 +17,12 @@ meta:
 
 ---
 
-::: tip (Update@2018-08-19)
-经过多时的酝酿，Vue 终于(2018/08/12)发布了正式发布 [Vue CLI 3.0](https://cli.vuejs.org/)，它也将为很多开发者带来期待已久的新特性。相比于之前版本，它经历了很大程度上的重构，目的是：尽可能减少现代前端工具在配置上的烦恼，尤其是在开发者将多个工具混合使用时；尽可能在工具链中加入最佳实践，并让其成为 `Vue` 应用程序的默认实践。除了具有丰富的内置功能之外，还有无需 Eject 即可配置、可扩展的插件系统、完整的图形用户界面 (GUI）、Instant Prototyping、Modern Mode 等功能与特性。还未使用的朋友们，可以开始尝鲜了；如果你想更为便捷的体验，这里开源了 [Awesome Vue-Cli3 Example
-](https://github.com/nicejade/awesome-vue-cli3-example)可供参考，她除了集成了此开箱即用模板的大部分功能，此外还将保持探索、持续更新。
+::: tip (Update@2018-08-19)  
+经过多时的酝酿，Vue 终于(2018/08/12)发布了正式发布 [Vue CLI 3.0](https://cli.vuejs.org/)，它也将为很多开发者带来期待已久的新特性。相比于之前版本，它经历了很大程度上的重构，目的是：尽可能减少现代前端工具在配置上的烦恼，尤其是在开发者将多个工具混合使用时；尽可能在工具链中加入最佳实践，并让其成为 `Vue` 应用程序的默认实践。除了具有丰富的内置功能之外，还有无需 Eject 即可配置、可扩展的插件系统、完整的图形用户界面 (GUI）、Instant Prototyping、Modern Mode 等功能与特性。还未使用的朋友们，可以开始尝鲜了；如果你想更为便捷的体验，这里开源了 [Awesome Vue-Cli3 Example ](https://github.com/nicejade/awesome-vue-cli3-example)可供参考，她除了集成了此开箱即用模板的大部分功能，此外还将保持探索、持续更新。  
 :::
 
-::: tip (Update@2018-06-15)
-经过多时的发展，`vue-cli3` 已经发布 `RC` 版本；在这个版本，它集成了更多丰富的功能，以及更多默认配置，可通过附带的图形用户界面创建、开发和管理项目。可查看 [Vue CLI](https://cli.vuejs.org/) 文档，查看更多相关信息。[awesome-vue-cli3-example](https://github.com/nicejade/awesome-vue-cli3-example)，是基于 `Vue-Cli3` 所搭建的 `Vue` 项目使用示例，旨在方便开发人员更便捷地使用 `Vue-cli3`，并更高效合理地构建 `Web` 应用程序。如果您乐于追求更优质的开发体验，并敢于冒险，不妨一起来展望，`Vue` 项目新的打开方式。
+::: tip (Update@2018-06-15)  
+经过多时的发展，`vue-cli3` 已经发布 `RC` 版本；在这个版本，它集成了更多丰富的功能，以及更多默认配置，可通过附带的图形用户界面创建、开发和管理项目。可查看 [Vue CLI](https://cli.vuejs.org/) 文档，查看更多相关信息。[awesome-vue-cli3-example](https://github.com/nicejade/awesome-vue-cli3-example)，是基于 `Vue-Cli3` 所搭建的 `Vue` 项目使用示例，旨在方便开发人员更便捷地使用 `Vue-cli3`，并更高效合理地构建 `Web` 应用程序。如果您乐于追求更优质的开发体验，并敢于冒险，不妨一起来展望，`Vue` 项目新的打开方式。  
 :::
 
 ---
@@ -71,7 +70,7 @@ meta:
 
 ### **所提供的全局性方法**
 
-对于代码的编写效率，也是尤为的重要；毕竟：“**天下武功，唯快不破**；即便说**轻功不表武功，但速度决定了你我の距离**”；更严肃的作证这个观点是：只有快速完成需求，才有时间去学习更多、或在关键点上作优化。故此，在此脚手架中，已将常用的工具、插件、方法，通过添加至 Vue 全局实例，以方便调用；譬如：通过添加至 `Vue.prototype`，或者全局 `mixin`(*minxns/globalMixin.js*) 以及过滤(*filters.js*)等；
+对于代码的编写效率，也是尤为的重要；毕竟：“**天下武功，唯快不破**；即便说**轻功不表武功，但速度决定了你我の距离**”；更严肃的作证这个观点是：只有快速完成需求，才有时间去学习更多、或在关键点上作优化。故此，在此脚手架中，已将常用的工具、插件、方法，通过添加至 Vue 全局实例，以方便调用；譬如：通过添加至 `Vue.prototype`，或者全局 `mixin`(_minxns/globalMixin.js_) 以及过滤(_filters.js_)等；
 
 ```
 import _ from '@helper/lodash.js'
@@ -90,34 +89,38 @@ Vue.prototype.$utils = $utils
 
 ```js
 $.ajax({
-  type: "GET",
-  url: "xxx/getYyyContent",
-  data: { username: $("#username").val() },
-  dataType: "json",
-  success: function (data) {
+  type: 'GET',
+  url: 'xxx/getYyyContent',
+  data: { username: $('#username').val() },
+  dataType: 'json',
+  success: function(data) {
     const textContent = data.data.textContent
     $('#text-content').html(textContent)
   },
-  error: function (error) {
+  error: function(error) {
     // Do something to handle Error
   },
-  complete: function (error) {
+  complete: function(error) {
     // 做额外的处理无论请求成功或失败
   }
-});
+})
 ```
 
 **大道至简**，优秀的开发流程，一定是便于编写和维护！本脚手架引用类库 `axios` 和 `q`，并对其进行简单封装，以处理 Http 请求相关；使其能够支持链式调用，同时对返回数据统一处理，精简返回内容，使得在获取到最终结果处，可以尽可能简单，详见 `helper/ajax.js`；另外，推荐开发者将接口，按照功能模块规划，分门别类以存放至统一文件夹下，如 `helper/apis`；如此清晰明了，方便调用，且对于多人协作开发，又不相互响应，减少不必要的冲突。类似善用配置，以**表驱动法**的编程手法，应该活学活用，贯穿始终；具体更详细的陈述，可参见 [如何漂亮使用 Vue 之基础篇](https://jeffjade.com/2017/03/11/120-how-to-write-vue-better/#%E5%A6%82%E4%BD%95%E6%BC%82%E4%BA%AE%E4%BD%BF%E7%94%A8-Vue-%E4%B9%8B%E5%9F%BA%E7%A1%80%E7%AF%87)。倘若以此法来处理 Http 请求，那如上磨人的示例，即可修改为如下模样：
 
 ```js
 const params = { username: this.form.username }
-this.$apis.xxx.getYyyContent(params).then(result => {
-  this.textContent = result.textContent
-}).catch(error => {
-  // Do something to handle Error
-}).fin(() => {
-  // 做额外的处理无论请求成功或失败
-})
+this.$apis.xxx
+  .getYyyContent(params)
+  .then(result => {
+    this.textContent = result.textContent
+  })
+  .catch(error => {
+    // Do something to handle Error
+  })
+  .fin(() => {
+    // 做额外的处理无论请求成功或失败
+  })
 ```
 
 ### **贴心的路由（Router）配置**
@@ -140,24 +143,25 @@ this.$apis.xxx.getYyyContent(params).then(result => {
 
 您知道，`npm`（`yarn` 亦同）允许在 `package.json` 文件里面，使用 `scripts` 字段定义脚本命令。它支持通配符、变量、钩子、外部传参、支持并发 & 异步执行等等；所以，完全可以借助 `npm script`，打造属于自己的高效工作流。在此脚手架中，默认只是些提供了简单命令，您可以在自己的脚本中，结合您欢喜的工具，如 `gulp`、`bash` 等，来塑造属于您的高效工作流。下面对默认命令略作说明：
 
-npm (yarn) 命令 | 功能描述
-:----|:----
-yarn start | 运行项目以开发环境，是 `yarn run dev` 的快捷版方式
-yarn run build:dll | 构建出 `vendor.dll.js`，依据 `webpack.dll.conf.js`
-yarn run build | 构建项目，以生产环境
-yarn run jarvis | 运行 `webpack-jarvis`（非常智能的基于浏览器的Webpack仪表板）在 http://localhost:1337/
-yarn run analyz | 对所构建的包进行可视化呈现，在 http://localhost:8888/
-yarn run preview | 对项目进行在本地预览，以生产环境，在 http://localhost:3000/
-yarn run pretest | 对生产环境所构建的包进行简单的“预测”：在 http://localhost:3000/
+| npm (yarn) 命令    | 功能描述                                                                                |
+| :----------------- | :-------------------------------------------------------------------------------------- |
+| yarn start         | 运行项目以开发环境，是 `yarn run dev` 的快捷版方式                                      |
+| yarn run build:dll | 构建出 `vendor.dll.js`，依据 `webpack.dll.conf.js`                                      |
+| yarn run build     | 构建项目，以生产环境                                                                    |
+| yarn run jarvis    | 运行 `webpack-jarvis`（非常智能的基于浏览器的 Webpack 仪表板）在 http://localhost:1337/ |
+| yarn run analyz    | 对所构建的包进行可视化呈现，在 http://localhost:8888/                                   |
+| yarn run preview   | 对项目进行在本地预览，以生产环境，在 http://localhost:3000/                             |
+| yarn run pretest   | 对生产环境所构建的包进行简单的“预测”：在 http://localhost:3000/                         |
 
 ### **使用此脚手架的线上项目**
 
-- [「倾城之链｜NICE LINKS」](https://nicelinks.site?from=vue-webpack)：一个开放平台，旨在云集全球优秀网站，探索互联网中更广阔的世界；在这里，你可以轻松发现、学习、分享更多有用或有趣的事物。
+- [「倾城之链｜ NICE LINKS」](https://nicelinks.site?from=vue-webpack)：一个开放平台，旨在云集全球优秀网站，探索互联网中更广阔的世界；在这里，你可以轻松发现、学习、分享更多有用或有趣的事物。
 
 ### **项目待优化的那些方向**
 
 - **完善[单元测试](https://cn.vuejs.org/v2/guide/unit-testing.html)相关**；在代码层面，做好单元测试，有助于提升代码质量，从而使得项目质量、后续维护都可以更好。考虑将在之后的版本中，参考 [Vue Test Utils](https://vue-test-utils.vuejs.org/zh-cn/) 对这块儿进行完善。
-- **SEO 优化相关**；这是多方都应该考虑的问题；但在项目设计层面，可以考虑[服务端渲染](https://cn.vuejs.org/v2/guide/ssr.html)来极大提升 SEO （如：[Nuxt](https://github.com/nuxt/nuxt.js)）；但这对于已经处于开发阶段的项目，涉及需要更多的调整，相比于其他的可选方案。[「倾城之链｜NICE LINKS」](https://nicelinks.site?from=vue-webpack) 是基于 [prerender](https://github.com/prerender/prerender)，在 `nginx` 层面，针对浏览器作预渲染以优化 SEO，现在看起来效果可以。 另外可以选择的方案是运用 [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin)，在 `Webpack` 构建项目时预渲染静态 html 内容，；在未来版本中，会考虑针对这块儿给出一个相对折中的方案。
+- **SEO 优化相关**；这是多方都应该考虑的问题；但在项目设计层面，可以考虑[服务端渲染](https://cn.vuejs.org/v2/guide/ssr.html)来极大提升 SEO （如：[Nuxt](https://github.com/nuxt/nuxt.js)）；但这对于已经处于开发阶段的项目，涉及需要更多的调整，相比于其他的可选方案。[「倾城之链｜ NICE LINKS」](https://nicelinks.site?from=vue-webpack) 是基于 [prerender](https://github.com/prerender/prerender)，在 `nginx` 层面，针对浏览器作预渲染以优化 SEO，现在看起来效果可以。 另外可以选择的方案是运用 [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin)，在 `Webpack` 构建项目时预渲染静态 html 内容，；在未来版本中，会考虑针对这块儿给出一个相对折中的方案。
+
 * **塑造更便捷的前端开发环境**；这里所言的`开箱即用`，仍需要在您已经安装高版本 `node` 的前提；这对于新晋开发着并不是友好；如果，您使用的是基于 `windows` 系统的环境，并不能保证这套脚手架可以很顺利运行(😌)；因此，有考虑借助 `Docker` 等工具，优化前端开发环境，使其可以更新便捷，而无需依赖更多。
 
 ### **写在最后的结语**
@@ -170,7 +174,7 @@ yarn run pretest | 对生产环境所构建的包进行简单的“预测”：�
 
 ### **你可能感兴趣(/有用)的文章：**
 
-- [如何写一手漂亮的Vue](https://jeffjade.com/2017/03/11/120-how-to-write-vue-better/)
+- [如何写一手漂亮的 Vue](https://jeffjade.com/2017/03/11/120-how-to-write-vue-better/)
 - [Webpack 打包优化之速度篇](https://jeffjade.com/2017/08/12/125-webpack-package-optimization-for-speed/)
 - [Webpack 打包优化之体积篇](https://jeffjade.com/2017/08/06/124-webpack-packge-optimization-for-volume/)
 - [Npm vs Yarn 之备忘详单](https://jeffjade.com/2017/12/30/135-npm-vs-yarn-detial-memo/)

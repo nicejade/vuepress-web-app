@@ -36,8 +36,7 @@ meta:
   },
 ```
 
-当然，还需安装依赖库： eslint-plugin-prettier 和 eslint-config-prettier (下文会讲到此依赖的作用)，更详细信息可以参见 Prettier 文档： [Integrating with ESLint
-](https://prettier.io/docs/en/eslint.html)。
+当然，还需安装依赖库： eslint-plugin-prettier 和 eslint-config-prettier (下文会讲到此依赖的作用)，更详细信息可以参见 Prettier 文档： [Integrating with ESLint ](https://prettier.io/docs/en/eslint.html)。
 
 ```bash
 yarn add --dev eslint-plugin-prettier eslint-config-prettier prettier-eslint-cli
