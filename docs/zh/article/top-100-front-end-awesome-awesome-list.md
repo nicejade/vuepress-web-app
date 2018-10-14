@@ -12,7 +12,8 @@ meta:
 正值如今这信息爆炸的年代，如何能从中汲取精华，于有限时间内，成为更高效的学习者，从而在激烈的竞争中更具优势，是当下每个人或企业都该思虑的问题；先前创立的 `Web` 应用：[「倾城之链」](https://nicelinks.site/?from=awesome-list)，就是为改善这一困扰的探索尝试，具体可参见[关于 | 「倾城之链」](https://nice.lovejade.cn/zh/application/)。这份为**前端开发者**而精心维护的超棒列表，就是为解决**信息过剩**问题的具体实践：旨在为`前端学习`，`技能提升`，`视野扩展`，`资料查找`等提供价值性参考。目前选择性收录优质仓库近百个，涉及 Web 前端、后台、流行技术以及其他魔力清单。
 
 ::: tip 温馨提醒  
-此份列表，目前维护在 `Github` 仓库：[Awesome List 👏 | 与时俱进版前端资源教程](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/awesome-list.md)，将会持续更新，尽可能使之全而不杂，以避免信息过重而无用，这或将成为你从事现代 `Web` 开发之路的重要参考，你值得拥有，实可典藏。 :::
+此份列表，目前维护在 `Github` 仓库：[Awesome List 👏 | 与时俱进版前端资源教程](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/awesome-list.md)，将会持续更新，尽可能使之全而不杂，以避免信息过重而无用，这或将成为你从事现代 `Web` 开发之路的重要参考，你值得拥有，实可典藏。  
+:::
 
 <!-- more -->
 
@@ -142,3 +143,6 @@ meta:
 - [Awesome-README](https://github.com/matiassingers/awesome-readme): <sub>A curated list of awesome READMEs</sub>
 - [Awesome-Resources](https://github.com/lyfeyaj/awesome-resources): <sub>Awesome resources for coding and learning: open source projects, websites, books e.g.</sub>
 - [Awesome-Talks](https://github.com/JanVanRyswyck/awesome-talks): <sub>Awesome online talks and screencasts</sub>
+
+> 原文出处：[静晴轩别苑](https://nice.lovejade.cn/)  
+> 原文首链: [TOP 100 大前端超棒精选列表](https://nice.lovejade.cn/zh/article/top-100-front-end-awesome-awesome-list.html)
