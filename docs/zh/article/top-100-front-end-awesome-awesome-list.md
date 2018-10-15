@@ -15,6 +15,8 @@ meta:
 此份列表，目前维护在 `Github` 仓库：[Awesome List 👏 | 与时俱进版前端资源教程](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/awesome-list.md)，将会持续更新，尽可能使之全而不杂，以避免信息过重而无用，这或将成为你从事现代 `Web` 开发之路的重要参考，你值得拥有，实可典藏。  
 :::
 
+![TOP 100 大前端超棒精选列表](https://image.nicelinks.site/front-end-awesome-list.png)
+
 <!-- more -->
 
 ## 🐉 Awesome Future Technology List
@@ -145,4 +147,8 @@ meta:
 - [Awesome-Talks](https://github.com/JanVanRyswyck/awesome-talks): <sub>Awesome online talks and screencasts</sub>
 
 > 原文出处：[静晴轩别苑](https://nice.lovejade.cn/)  
-> 原文首链: [TOP 100 大前端超棒精选列表](https://nice.lovejade.cn/zh/article/top-100-front-end-awesome-awesome-list.html)
+> 原文首链：[TOP 100 大前端超棒精选列表](https://nice.lovejade.cn/zh/article/top-100-front-end-awesome-awesome-list.html)
+
+@2018-10-13 于深圳.福田 Last Modify：2018-10-15
+
+<Advertisement />
