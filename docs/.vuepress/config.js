@@ -2,10 +2,10 @@ const themeConfig = require('./themeConfig')
 const buildConfig = require('./buildConfig')
 
 module.exports = {
-  base: "/",
+  base: '/',
   // 存放“生成静态的 HTML 文件”路径;
   dest: './docs/dist',
-   head: [
+  head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -18,6 +18,7 @@ module.exports = {
   ],
   ga: 'UA-119945815-1',
   serviceWorker: true,
+  updatePopup: true,
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -25,8 +26,8 @@ module.exports = {
       description: '繁华尽处，寻一无人山谷，建一木制小屋，铺一青石小路，与你晨钟暮鼓，安之若素。',
       serviceWorker: {
         updatePopup: {
-          message: "🎉 发现新内容可用 ✏️",
-          buttonText: "刷新"
+          message: '🎉 发现新内容可用 ✏️',
+          buttonText: '刷新'
         }
       }
     },
@@ -36,8 +37,8 @@ module.exports = {
       description: 'Wherever you go， whatever you do， I will be right here waiting for you.',
       serviceWorker: {
         updatePopup: {
-          message: "🎉 New Content Is Available. ✏️",
-          buttonText: "Refresh"
+          message: '🎉 New Content Is Available. ✏️',
+          buttonText: 'Refresh'
         }
       }
     }
