@@ -41,14 +41,18 @@
 可将项目 `Fork` 至自己的代码仓库，运行以下命令即可：
 
 ```bash
+# 🎉 clone the project
 git clone https://github.com/${your-github-id}/vuepress-web-app
 cd vuepress-web-app
+
+# ➕ install dependencies & start dev
 yarn && yarn start
 ```
 
 修改 `deploy.sh` 文件中的“自定义域名”以及“仓库路径”，运行如下命令，即可实现部署（默认发布至 `github pages`；如果暂不使用自定义域名，注释该行即可。
 
 ```bash
+# 🚀 deploy to github-page
 yarn deploy
 ```
 
@@ -62,8 +66,13 @@ yarn deploy
 - [知乎主页](https://www.zhihu.com/people/yang-qiong-pu/)
 - [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
 - [SegmentFault](https://segmentfault.com/u/jeffjade)
-- [Twitter](https://twitter.com/jeffjade2)
+- [Twitter](https://twitter.com/nicejadeyang)
 - [Facebook](https://www.facebook.com/yang.gang.jade)
+
+| 微信公众号                                                                | 前端微信群                                                         | 推荐 Web 应用                                                                                                |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| 😉 静晴轩                                                                 | ✨ 大前端联盟                                                      | 🎉 倾城之链                                                                                                  |
+| ![静晴轩](https://img.hacpai.com/e/d58ec187dfbc4f8d8c3af87037500466.jpeg) | ![倾城之链](https://image.nicelinks.site/wqycx-weixin.png?ver=1.0) | <img src="https://img.hacpai.com/e/5b84f1aab9384fd7a6f710f4d35e217e.png" width="300px" alt="倾城之链"></img> |
 
 ## 许可执照
 
