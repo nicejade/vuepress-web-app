@@ -1,3 +1,14 @@
+---
+title: 天意人间舫
+lang: zh-CN
+datetime: 2018-08-03
+meta:
+  - name: description
+    content: 回顾这些年，所搭建的那些个人博客(基于 Hexo、Jekyll、VuePress、Docz 等)，以及体验过的写作分享平台(如：博客园、简书、微信公众号等)。
+  - name: keywords
+    content: 个人博客,Hexo,Jekyll,VuePress,Docz,简书,博客园
+---
+
 # 天意人间舫
 
 [天意人间舫](https://blog.lovejade.cn/)，由 `Jekyll` 所驱动；部署于 `Coding page` & `Github Page`；基于 `Github Issue` 作评论系统；使用 `Gitalk` 作为评论插件；采用 `Google Analytics` 作为分析方案；支持 `Pwa`，如添加 Icon 到主屏幕，缓存页面支持离线访问等。

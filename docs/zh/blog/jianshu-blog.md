@@ -1,3 +1,14 @@
+---
+title: 简书博客
+lang: zh-CN
+datetime: 2018-08-06
+meta:
+  - name: description
+    content: 回顾这些年，所搭建的那些个人博客(基于 Hexo、Jekyll、VuePress、Docz 等)，以及体验过的写作分享平台(如：博客园、简书、微信公众号等)。
+  - name: keywords
+    content: 个人博客,Hexo,Jekyll,VuePress,Docz,简书,博客园
+---
+
 # [简书博客](https://www.jianshu.com/u/9aae3d8f4c3d)
 
 谈起在`简书`写博，也是和[晚晴幽草轩](https://jeffjade.com/)有着不小的关系；那时一心想塑造个人品牌，却难于初始流量；可以选择方法就是，在写完文章以后，同步一份到其他平台，如[博客园](https://www.cnblogs.com/jadeboy/)等；恰好也是在那时候，初出的平台`简书`，融合读写一体，且也在努力扩大用户；不拍即合双方，自此也就有了在简书平台的博客：[晚晴幽草](https://www.jianshu.com/u/9aae3d8f4c3d)。那是 2015 年 2 月。
