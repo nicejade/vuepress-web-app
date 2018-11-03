@@ -58,21 +58,23 @@ yarn deploy
 
 ## 相关链接
 
-- [About Me](https://about.me/nicejade)
 - [**倾城之链**](https://nicelinks.site?from=github)
-- [晚晴幽草轩](https://jeffjade.com/nicelinks)
-- [天意人间舫](https://blog.lovejade.cn/)
-- [新浪微博](https://weibo.com/jeffjade)
+- [About Me](https://about.me/nicejade?from=github)
+- [个人博客](https://jeffjade.com/nicelinks?from=github)
+- [静晴轩别苑](https://nice.lovejade.cn/?from=github)
+- [吾意静晴轩](https://docz.lovejade.cn/?from=github)
+- [天意人间舫](https://blog.lovejade.cn/?from=github)
+- [新浪微博](https://weibo.com/jeffjade?from=github)
 - [知乎主页](https://www.zhihu.com/people/yang-qiong-pu/)
 - [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
 - [SegmentFault](https://segmentfault.com/u/jeffjade)
 - [Twitter](https://twitter.com/nicejadeyang)
 - [Facebook](https://www.facebook.com/yang.gang.jade)
 
-| 微信公众号                                                                | 前端微信群                                                         | 推荐 Web 应用                                                                                                |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| 😉 静晴轩                                                                 | ✨ 大前端联盟                                                      | 🎉 倾城之链                                                                                                  |
-| ![静晴轩](https://img.hacpai.com/e/d58ec187dfbc4f8d8c3af87037500466.jpeg) | ![倾城之链](https://image.nicelinks.site/wqycx-weixin.png?ver=1.0) | <img src="https://img.hacpai.com/e/5b84f1aab9384fd7a6f710f4d35e217e.png" width="300px" alt="倾城之链"></img> |
+| 微信公众号 | 前端微信群 | 推荐 Web 应用 |
+| --- | --- | --- |
+| 😉 静晴轩 | ✨ 大前端联盟 | 🎉 倾城之链 |
+| ![静晴轩](https://image.nicelinks.site/qrcode_jqx.jpg) | ![倾城之链](https://image.nicelinks.site/wqycx-weixin.png?ver=1) |<img src="https://image.nicelinks.site/nice-links.png" width="300px" alt="倾城之链"></img>|
 
 ## 许可执照
 

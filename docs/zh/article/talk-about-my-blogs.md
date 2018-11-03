@@ -65,7 +65,7 @@ meta:
 
 相比与 `Nuxt`、 `Hexo`、`Jekyll`、`Docsify`、`GitBook` 等工具，`VuePress` 在不同方向，都拥有着巨大优势，并且仍在开发更新当中；如果你有搭建个人博客、技术文档的需求，那么 `VuePress` 将是超棒的选择。
 
-### [吾意静晴轩](docz-blog.html)
+### [吾意静晴轩](https://docz.lovejade.cn/)
 
 [吾意静晴轩](https://docz.lovejade.cn)的诞生，是为了体验采用 [Docz](https://www.docz.site/) 构建 Web 应用程序；同时，为便捷而优雅的创建 Web 应用提供些参考。
 
