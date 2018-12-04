@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 快应用脚手架，为优雅而生
+    description: 快应用脚手架模板，旨在探索如何更为优雅的开发快应用，为广大快应用开发者提供便利和参考，尽可能提升开发效率、优化开发体验，使得可以在更短时间内，塑造出更为优质的快应用。
+    link: quickapp-boilerplate-template
   - title: TOP 100 大前端超棒精选列表
     description: 在如今这海量信息爆炸的年代，如何能从中汲取精华，于有限时间内，成为更高效的学习者，从而在激烈的竞争中更具优势，是当下每个人或企业都该思虑的问题；这份 TOP 100 大前端超棒精选列表，为解决信息过剩问题的具体实践：旨在为前端学习，技能提升，视野扩展，资料查找等提供价值性参考。
     link: top-100-front-end-awesome-awesome-list
