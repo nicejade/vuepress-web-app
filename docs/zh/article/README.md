@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 快应用开发资源、教程汇聚
+    description: 快应用开发资源、教程汇聚，云集最新的快应用教程文章、开发资源、项目案例及新闻动态；为快应用开发者提供便利和参考。
+    link: awesome-quickapp
   - title: 快应用脚手架，为优雅而生
     description: 快应用脚手架模板，旨在探索如何更为优雅的开发快应用，为广大快应用开发者提供便利和参考，尽可能提升开发效率、优化开发体验，使得可以在更短时间内，塑造出更为优质的快应用。
     link: quickapp-boilerplate-template

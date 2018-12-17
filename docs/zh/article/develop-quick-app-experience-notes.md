@@ -162,3 +162,10 @@ hap init <YourProjectName>
 @2018-08-06 于深圳.福田 Last Modify：2018-09-09
 
 <Advertisement />
+
+---
+
+## 同类型文章
+
+- [快应用开发资源、教程汇聚](https://nice.lovejade.cn/zh/article/awesome-quickapp.html)
+- [快应用脚手架，为优雅而生](https://nice.lovejade.cn/zh/article/quickapp-boilerplate-template.html)
