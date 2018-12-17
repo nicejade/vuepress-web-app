@@ -21,6 +21,7 @@
     "date-fns": "^1.29.0",
     "element-ui": "^2.4.0",
     "github-markdown-css": "^2.10.0",
+    "markdown-it-task-checkbox": "^1.0.6",
     "md5": "^2.2.1",
     "node-polyglot": "^2.3.0",
     "raw-loader": "^0.5.1"
