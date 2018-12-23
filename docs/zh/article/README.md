@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 云集优站，尽在「倾城之链」其二
+    description: 倾城之链，基于 Vue2 (Webpack4, Es6, Element-Ui...) Node（Koa2）、MongoDB、Nginx、Redis、Pm2、Prerender 等工具/技术，所构建的 Web 应用程序，旨在云集全球优秀网站，方便你我探索互联网中更广阔的世界。
+    link: awesome-quickapp
   - title: 快应用开发资源、教程汇聚
     description: 快应用开发资源、教程汇聚，云集最新的快应用教程文章、开发资源、项目案例及新闻动态；为快应用开发者提供便利和参考。
     link: awesome-quickapp
