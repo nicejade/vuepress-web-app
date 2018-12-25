@@ -15,6 +15,8 @@ meta:
 
 ![快应用开发资源、教程汇聚](https://image.nicelinks.site/cool-background-red.png)
 
+> 此篇在于云集最新[快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)相关教程文章、开发资源、项目案例及新闻动态；为快应用开发者提供便利和参考；目前有在 [awesome-quickapp](https://github.com/nicejade/awesome-quickapp) 持续性维护、更新。
+
 ---
 
 - [基础教程篇](#基础教程篇)
@@ -55,6 +57,7 @@ meta:
 
 ### 快应用常见问题
 
+- [快应用开发问题反馈和需求征集](https://github.com/quickappcn/issues)
 - [快应用常见问题和技术帖子汇总](https://bbs.quickapp.cn/forum.php?mod=viewthread&tid=838)
 - [快应用账号注册流程](https://www.quickapp.cn/docCenter/post/71)
 
@@ -62,7 +65,8 @@ meta:
 
 - [快统计 - 轻粒子](http://www.qinglizi.cn/): <sub>专注于快应用数据统计分析；数据监控；渠道识别；人群分析；事件/转化漏斗；</sub>
 - [友盟快应用统计 SDK 集成文档](https://developer.umeng.com/docs/84810/detail/84811): <sub>接入友盟快应用统计 SDK，可以在 U-App 官网中查看应用新增用户、活跃用户、启动次数、使用时长等基本数据。</sub>
-- [快应用入口合集](https://bbs.quickapp.cn/forum.php?mod=viewthread&tid=552&fromuid=139)
+- [快应用简书专题](https://www.jianshu.com/c/967284997de2)：<sub>🛠 云集快应用相关教程文章、开发资源、项目案例及最新动态；为快应用开发者提供便利和参考。</sub>
+- [快应用入口合集](https://bbs.quickapp.cn/forum.php?mod=viewthread&tid=552&fromuid=139): <sub>汇总各大厂商快应用入口</sub>
 
 ### 脚手架
 
@@ -121,3 +125,11 @@ meta:
 ## 快应用新闻
 
 - [快应用 v1030 上线](https://doc.quickapp.cn/changelog/1030.html)： <sub>2018-11-28</sub>
+
+## 同类型文章
+
+- [快应用脚手架，为优雅而生](https://nice.lovejade.cn/zh/article/quickapp-boilerplate-template.html)
+- [快应用之开发体验纪要](https://nice.lovejade.cn/zh/article/develop-quick-app-experience-notes.html)
+- [云集优站，尽在「倾城之链」其二](https://www.jeffjade.com/2017/10/09/146-talk-about-nice-links/)
+
+<Advertisement />

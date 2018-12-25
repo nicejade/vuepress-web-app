@@ -102,5 +102,6 @@ yarn gen YourPageName
 
 - [快应用开发资源、教程汇聚](https://nice.lovejade.cn/zh/article/awesome-quickapp.html)
 - [快应用之开发体验纪要](https://nice.lovejade.cn/zh/article/develop-quick-app-experience-notes.html)
+- [云集优站，尽在「倾城之链」其二](https://www.jeffjade.com/2017/10/09/146-talk-about-nice-links/)
 
 <Advertisement />

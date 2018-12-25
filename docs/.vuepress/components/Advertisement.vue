@@ -7,6 +7,9 @@
         </a>
       </el-carousel-item>
     </el-carousel>
+    <h2 id="文章评论">
+      <a href="#文章评论" aria-hidden="true" class="header-anchor">#</a>文章评论
+    </h2>
     <div id="gitalk-container" v-if="$site.themeConfig.comment">
       <Comment />
     </div>
@@ -19,13 +22,14 @@ import Comment from './comment'
 export default {
   name: 'Advertisement',
 
-  data () {
+  data() {
     return {
       carouselHeight: '100px',
       items: [
         {
           path: '//click.dji.com/AAMD9H5ODH2wTVtxUWwxxw?pm=link&as=0004',
-          image: '//u.djicdn.com/uploads/ad_image_file/file/1670/%E5%A4%A7%E7%96%86%E6%8E%A8%E5%B9%BF%E8%81%94%E7%9B%9Fbanner_970-250.jpg',
+          image:
+            '//u.djicdn.com/uploads/ad_image_file/file/1670/%E5%A4%A7%E7%96%86%E6%8E%A8%E5%B9%BF%E8%81%94%E7%9B%9Fbanner_970-250.jpg',
           alt: '“御”Mavic 2 - 全新 Hasselblad 镜头与你一同高瞻远瞩，以小见大'
         },
         {
@@ -47,16 +51,15 @@ export default {
     }
   },
 
-  computed: {
-  },
+  computed: {},
 
   components: {
     Comment
   },
 
-  mounted () {
+  mounted() {
     const isMiniScreen = document.body.clientWidth <= 768
-    const spaceWidth = isMiniScreen ? (1.5 * 2 * 16) : ((16.4 + 2 * 2) * 16)
+    const spaceWidth = isMiniScreen ? 1.5 * 2 * 16 : (16.4 + 2 * 2) * 16
     const containerWidth = document.body.clientWidth - spaceWidth
     const carouselWidth = Math.min(containerWidth, 970)
     const carouselHeight = Math.ceil((250 * carouselWidth) / 970)
@@ -66,8 +69,7 @@ export default {
     carContainer.style.height = `${carouselHeight}px`
   },
 
-  methods: {
-  }
+  methods: {}
 }
 </script>
 
