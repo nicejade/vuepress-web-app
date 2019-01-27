@@ -2,7 +2,6 @@
 title: 云集优站，尽在「倾城之链」其二
 lang: zh-CN
 datetime: 2018-12-23
-sidebar: auto
 meta:
   - name: description
     content: 倾城之链，基于 Vue2 (Webpack4, Es6, Element-Ui...) Node（Koa2）、MongoDB、Nginx、Redis、Pm2、Prerender 等工具/技术，所构建的 Web 应用程序，旨在云集全球优秀网站，方便你我探索互联网中更广阔的世界。

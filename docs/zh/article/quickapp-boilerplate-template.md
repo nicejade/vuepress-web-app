@@ -76,7 +76,21 @@ yarn gen YourPageName
 - [x] **新增快捷命令脚本**；使得可以一键生成新页面，只需运行：`yarn gen YourPageName` （命名推荐统一为大驼峰，将会在 `pages` 路径下新建该页面文件夹）命令即可，当然，也可以根据需要，自行定定制模板：_/command/gen/template.ux_；
 - [x] **集成 [Prettier](https://prettier.io/) & [Eslint](https://eslint.org/)**；在检测代码中潜在问题的同时，统一团队代码规范、风格（`js`，`less`，`scss`等），从而促使写出高质量代码，以提升工作效率(尤其针对团队开发)。
 - [x] **编写 [prettier-plugin-quickapp](https://github.com/nicejade/prettier-plugin-quickapp) 插件**；为快应用编写 `prettier` 插件，使其可以针对 `.ux`/`.mix` 文件也能很好地工作，从而进一步完善代码风格及规范。
+- [x] **新增文件监听命令**：引入 [onchange](https://github.com/Qard/onchange) 依赖来监听文件变化；使得在开发时，运行 `yarn prettier-watch` 命令，即可对所修改的 `*.md` `*.ux` `*.js` 等文件，进行 **Prettier** 格式化，从而大幅度提升编写效率。
 - [ ] ... ...
+
+## 快应用脚手架内置命令
+
+| 命令                  | 描述                          | 备注                                                                                                                                                   |
+| --------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `yarn start`          | 开启服务(server)和监听(watch) | 附魔[多步优化](https://nice.lovejade.cn/zh/article/quickapp-boilerplate-template.html#%E6%94%B9%E8%BF%9B%E4%BC%98%E5%8A%BF)，一键开启开发，强烈推荐 ✔️ |
+| `yarn server`         | 开启服务(server)              | 如不嫌麻烦，可使用，不推荐                                                                                                                             |
+| `yarn watch`          | 开启监听(watch)               | 如不嫌麻烦，可使用，不推荐                                                                                                                             |
+| `yarn build`          | 编译打包，生成 `rpk`包        | 对内置 `hap build` 命令的转接                                                                                                                          |
+| `yarn release`        | 生成 `rpk`包并增加签名        | 对内置 `hap release` 命令的转接                                                                                                                        |
+| `yarn gen`            | 新增「快应用」页面            | 助你高效生成页面，模版可自定义，推荐 ✓                                                                                                                 |
+| `yarn prettier`       | 一键美化代码(js/css/less/ux)  | 实在是团队开发好帮手，推荐 ✓                                                                                                                           |
+| `yarn prettier-watch` | 对变化代码文件格式、实时美化  | 极大提升代码编写效率，强烈推荐 ✔️                                                                                                                      |
 
 ## 相关链接
 

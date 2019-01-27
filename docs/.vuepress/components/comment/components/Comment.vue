@@ -55,111 +55,107 @@
 </template>
 
 <script>
-import Svg from "./Svg";
-import distanceInWordsToNow from "date-fns/distance_in_words_to_now";
-import buildDistanceInWordsLocaleZHCN from "date-fns/locale/zh_cn/build_distance_in_words_locale/index";
-import "github-markdown-css/github-markdown.css";
+import Svg from './Svg'
+import distanceInWordsToNow from 'date-fns/distance_in_words_to_now'
+import buildDistanceInWordsLocaleZHCN from 'date-fns/locale/zh_cn/build_distance_in_words_locale/index'
+import 'github-markdown-css/github-markdown.css'
 
-const ZHCN = buildDistanceInWordsLocaleZHCN();
+const ZHCN = buildDistanceInWordsLocaleZHCN()
 
 export default {
-    components: {
-        SvgSpinner: Svg
+  components: {
+    SvgSpinner: Svg
+  },
+  props: {
+    user: {
+      default: null
     },
-    props: {
-        user: {
-            default: null
-        },
-        comment: {
-            default: null
-        },
-        language: {
-            default: "en"
-        },
-        commentedText: {
-            default: ""
-        },
-        admin: {
-            default: () => []
-        }
+    comment: {
+      default: null
     },
-    computed: {
-        enableEdit() {
-            if (this.user) {
-                return this.comment.user.login === this.user.login;
-            }
-            return false;
-        },
-        avatarUrl() {
-            if (this.comment.user) {
-                return this.comment.user.avatar_url;
-            }
-            return null;
-        },
-        userInfoUrl() {
-            if (this.comment.user) {
-                return this.comment.user.html_url;
-            }
-            return null;
-        },
-        userName() {
-            if (this.comment.user) {
-                return this.comment.user.login;
-            }
-            return "";
-        },
-        commentDate() {
-            distanceInWordsToNow(this.comment.created_at, {
-                addSuffix: true,
-                locale: {
-                    distanceInWords: ZHCN
-                }
-            });
-        },
-        reactions() {
-            return this.comment.reactions;
-        },
-        reactionCount() {
-            let count = 0;
-            const reactions = this.reactions;
-            if (reactions && reactions.totalCount) {
-                count = reactions.totalCount;
-                if (
-                    reactions.totalCount === 100 &&
-                    reactions.pageInfo &&
-                    reactions.pageInfo.hasNextPage
-                ) {
-                    count = "100+";
-                }
-            }
-            return count;
-        },
-        isAdmin() {
-            return ~[]
-                .concat(this.admin)
-                .map(a => a.toLowerCase())
-                .indexOf(this.comment.user.login.toLowerCase());
-        },
-        commentClass() {
-            return [
-                "gt-comment",
-                {
-                    "gt-comment-admin": this.isAdmin
-                }
-            ];
-        }
+    language: {
+      default: 'en'
     },
-    methods: {
-        reply() {
-            this.$emit('reply', this.comment)
-        },
-        likeAction() {
-            if (this.reactions && this.reactions.viewerHasReacted) {
-                this.$emit('unlike', this.comment)
-            } else {
-                this.$emit('like', this.comment)
-            }
-        }
+    commentedText: {
+      default: ''
+    },
+    admin: {
+      default: () => []
     }
-};
+  },
+  computed: {
+    enableEdit() {
+      if (this.user) {
+        return this.comment.user.login === this.user.login
+      }
+      return false
+    },
+    avatarUrl() {
+      if (this.comment.user) {
+        return this.comment.user.avatar_url
+      }
+      return null
+    },
+    userInfoUrl() {
+      if (this.comment.user) {
+        return this.comment.user.html_url
+      }
+      return null
+    },
+    userName() {
+      if (this.comment.user) {
+        return this.comment.user.login
+      }
+      return ''
+    },
+    commentDate() {
+      return distanceInWordsToNow(this.comment.created_at, {
+        addSuffix: true,
+        locale: {
+          distanceInWords: ZHCN
+        }
+      })
+    },
+    reactions() {
+      return this.comment.reactions
+    },
+    reactionCount() {
+      let count = 0
+      const reactions = this.reactions
+      if (reactions && reactions.totalCount) {
+        count = reactions.totalCount
+        if (reactions.totalCount === 100 && reactions.pageInfo && reactions.pageInfo.hasNextPage) {
+          count = '100+'
+        }
+      }
+      return count
+    },
+    isAdmin() {
+      return ~[]
+        .concat(this.admin)
+        .map(a => a.toLowerCase())
+        .indexOf(this.comment.user.login.toLowerCase())
+    },
+    commentClass() {
+      return [
+        'gt-comment',
+        {
+          'gt-comment-admin': this.isAdmin
+        }
+      ]
+    }
+  },
+  methods: {
+    reply() {
+      this.$emit('reply', this.comment)
+    },
+    likeAction() {
+      if (this.reactions && this.reactions.viewerHasReacted) {
+        this.$emit('unlike', this.comment)
+      } else {
+        this.$emit('like', this.comment)
+      }
+    }
+  }
+}
 </script>

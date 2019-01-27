@@ -59,8 +59,9 @@ yarn deploy
 ## 相关链接
 
 - [**倾城之链**](https://nicelinks.site?from=github)
-- [About Me](https://about.me/nicejade?from=github)
+- [About Me](https://aboutme.lovejade.cn/?from=github)
 - [个人博客](https://jeffjade.com/nicelinks?from=github)
+- [静轩之别苑](https://quickapp.lovejade.cn/?from=github)
 - [静晴轩别苑](https://nice.lovejade.cn/?from=github)
 - [吾意静晴轩](https://docz.lovejade.cn/?from=github)
 - [天意人间舫](https://blog.lovejade.cn/?from=github)
@@ -80,4 +81,4 @@ yarn deploy
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2018-present, [nicejade](https://about.me/nicejade)
+Copyright (c) 2018-present, [nicejade](https://aboutme.lovejade.cn/)

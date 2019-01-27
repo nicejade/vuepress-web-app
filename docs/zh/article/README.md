@@ -1,6 +1,9 @@
 ---
 component: ArticleList
 items:
+  - title: 如何优雅处理「快应用」数据请求
+    description: 查阅快应用开发文档，可以知道官方提供了数据请求接口；对于如何使用，文档中也给出了示例，但很显然，这在实际项目中，不够优雅且更不高效，所以需要对其进行再封装，使得可以大幅提升开发效率，同时也令整个代码优雅、便于维护。所以在此篇文章的存在，旨在于讨论下如何优雅处理快应用数据请求。
+    link: how-to-elegantly-handle-quickapp-request
   - title: 云集优站，尽在「倾城之链」其二
     description: 倾城之链，基于 Vue2 (Webpack4, Es6, Element-Ui...) Node（Koa2）、MongoDB、Nginx、Redis、Pm2、Prerender 等工具/技术，所构建的 Web 应用程序，旨在云集全球优秀网站，方便你我探索互联网中更广阔的世界。
     link: talk-about-nice-links
