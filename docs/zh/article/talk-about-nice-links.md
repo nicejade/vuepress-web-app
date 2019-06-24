@@ -50,6 +50,14 @@ npm install nativefier -g
 nativefier --name "倾城之链" "https://nicelinks.site/"
 ```
 
+## **加入[倾城之链](https://nicelinks.site/?utm_source=nice.lovejade.cn)群聊**
+
+经过近两年的设计，[倾城之链](https://nicelinks.site/?utm_source=nice.lovejade.cn)目前已趋于稳定；后面将持续迭代，使其拥有更丰富的功能、以及更棒的体验。现创建[倾城之链](https://nicelinks.site/?utm_source=nice.lovejade.cn)微信、QQ 群（`984154031`），将会不定期分享最新收录的优质网站；如果您感兴趣，不妨考虑加入；另外，您对`倾城之链`有任何意见或建议，也可以通过该群向我反馈。
+
+![倾城之链 QQ 群](https://image.nicelinks.site/nicelinks-qq-qrcode.jpeg)
+
+![倾城之链微信群](https://image.nicelinks.site/nicelinks-wechat-qrcode.jpeg)
+
 ## 相关链接
 
 - [**倾城之链**](https://nicelinks.site?from=jeffjade.com)
