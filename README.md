@@ -58,14 +58,14 @@ yarn deploy
 
 ## 相关链接
 
-- [**倾城之链**](https://nicelinks.site?from=github)
-- [About Me](https://aboutme.lovejade.cn/?from=github)
-- [个人博客](https://jeffjade.com/nicelinks?from=github)
-- [静轩之别苑](https://quickapp.lovejade.cn/?from=github)
-- [静晴轩别苑](https://nice.lovejade.cn/?from=github)
-- [吾意静晴轩](https://docz.lovejade.cn/?from=github)
-- [天意人间舫](https://blog.lovejade.cn/?from=github)
-- [新浪微博](https://weibo.com/jeffjade?from=github)
+- [**倾城之链**](https://nicelinks.site?utm_source=nice.lovejade.cn)
+- [About Me](https://aboutme.lovejade.cn/?utm_source=nice.lovejade.cn)
+- [个人博客](https://jeffjade.com/nicelinks?utm_source=nice.lovejade.cn)
+- [静轩之别苑](https://quickapp.lovejade.cn/?utm_source=nice.lovejade.cn)
+- [静晴轩别苑](https://nice.lovejade.cn/?utm_source=nice.lovejade.cn)
+- [吾意静晴轩](https://docz.lovejade.cn/?utm_source=nice.lovejade.cn)
+- [天意人间舫](https://blog.lovejade.cn/?utm_source=nice.lovejade.cn)
+- [新浪微博](https://weibo.com/jeffjade?utm_source=nice.lovejade.cn)
 - [知乎主页](https://www.zhihu.com/people/yang-qiong-pu/)
 - [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
 - [SegmentFault](https://segmentfault.com/u/jeffjade)

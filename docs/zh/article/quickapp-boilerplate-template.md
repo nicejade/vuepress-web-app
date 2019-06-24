@@ -94,7 +94,7 @@ yarn gen YourPageName
 
 ## 相关链接
 
-- [**倾城之链**](https://nicelinks.site?from=github)
+- [**倾城之链**](https://nicelinks.site?utm_source=nice.lovejade.cn)
 - [About Me](https://about.me/nicejade)
 - [个人博客](https://jeffjade.com/nicelinks)
 - [辅助博客](https://blog.lovejade.cn/)
