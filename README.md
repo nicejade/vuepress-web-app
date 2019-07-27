@@ -1,4 +1,4 @@
-<p align="center"><a href="https://nice.lovejade.cn" target="_blank"><img width="100"src="https://nice.lovejade.cn/love.svg"></a></p>
+<p align="center"><a href="https://nice.lovejade.cn" target="_blank"><img width="100"src="https://nice.lovejade.cn/logo.png"></a></p>
 
 <h1 align="center">静晴轩别苑</h1>
 
@@ -42,7 +42,7 @@
 
 ```bash
 # 🎉 clone the project
-git clone https://github.com/${your-github-id}/vuepress-web-app
+https://github.com/nicejade/vuepress-web-app.git
 cd vuepress-web-app
 
 # ➕ install dependencies & start dev
@@ -70,7 +70,7 @@ yarn deploy
 - [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
 - [SegmentFault](https://segmentfault.com/u/jeffjade)
 - [Twitter](https://twitter.com/nicejadeyang)
-- [Facebook](https://www.facebook.com/yang.gang.jade)
+- [Facebook](https://www.facebook.com/nice.jade.yang)
 
 | 微信公众号 | 前端微信群 | 推荐 Web 应用 |
 | --- | --- | --- |
