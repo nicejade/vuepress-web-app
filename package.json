@@ -4,8 +4,8 @@
   "version": "0.1.3",
   "description": "Web applications built with Vuepress",
   "scripts": {
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "start": "npx vuepress dev docs",
+    "build": "npx vuepress build docs",
     "deploy": "bash deploy.sh",
     "precommit-msg": "echo '🚧 Pre-commit checks...' && exit 0",
     "prettier": "prettier --write '**/*.md'",
@@ -24,7 +24,8 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "md5": "^2.2.1",
     "node-polyglot": "^2.3.0",
-    "raw-loader": "^0.5.1"
+    "raw-loader": "^0.5.1",
+    "vuepress": "^0.14.11"
   },
   "devDependencies": {
     "husky": "^1.1.1",
