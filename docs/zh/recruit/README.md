@@ -4,7 +4,7 @@ sidebar: false
 
 <h1 align="center">大疆创新，招贤纳士</h1>
 
-![大西洋泛舟(来源：天空之城)](https://image.nicelinks.site/nice-ocean.jpeg)
+![大西洋泛舟(来源：天空之城)](https://image.lovejade.cn/nice-ocean.jpeg)
 
 每一段旅程，都是新的开始；漫短的人生中，只有更多的去经历，去探索，去体验，才能欣赏更多风景，感受更多美妙，以全人生之丰富多彩。在仅有一次的人生里，是庸庸碌碌求个安安稳稳，还是在迎风逆浪中选择决不妥协，相信你心中自有答案；[未来无所不能](https://we.dji.com/?utm_source=jeffjade.com)，是时候[换个角度看这个世界](https://www.skypixel.com/?utm_source=jeffjade.com)。如果您也这样想，请尽情砸出你的简历(至: <a href="mailto:yunjeff@163.com">yunjeff@163.com</a> )，和 `DJI` 一起：**激极尽志，追逐梦想；挥洒智慧，不负韶华**。具远见者，方识天下，不忘初心，梦想必达，你准备好迎接挑战了么？**[疆(将)来有你，从心出发](https://jeffjade.com/2017/08/26/126-start-from-the-heart/)**，是时候该你登场了。
 

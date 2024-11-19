@@ -13,7 +13,7 @@ meta:
 
 [吾意静晴轩](https://docz.lovejade.cn)的诞生，是为了体验采用 [Docz](https://www.docz.site/) 构建 Web 应用程序；同时，为便捷而优雅的创建 Web 应用提供些参考。
 
-![吾意静晴轩](https://image.nicelinks.site/吾意静晴轩.png)
+![吾意静晴轩](https://image.lovejade.cn/吾意静晴轩.png)
 
 [Docz](https://www.docz.site/)，为极简创造文档而生。它有如下特征：
 

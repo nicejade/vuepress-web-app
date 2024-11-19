@@ -11,9 +11,9 @@ meta:
 
 自从有了 Es6 模块系统后，在各种场景，可以愉悦借助 import/export，来充作模块加载方案。同时，你可能也会看到 import 与 export default，或基于 CommonJS 规范的 `require` 与 `module.exports` 等诸多用法；本篇文章，旨在探讨 JavaScript 模块化体系中：ES6 模块与 CommonJS 模块的差异，以及各自用法注意事项等。
 
-![import export Vs require module.exports](https://image.nicelinks.site/js-import-export-vs-require-module-exports.jpg)
+![import export Vs require module.exports](https://image.lovejade.cn/js-import-export-vs-require-module-exports.jpg)
 
-> **微注**：有两点需要声明，其一：文章的发布，不代表写完，只为督促加快进度；将会在陆续的学习及反馈中，继续完善；其二：总有些聚合网站，会窃取别人成果；因此，会在文章中无足轻重的代码示例中，内置些专属标记，以阐明文章出处；在此篇中用的是个人独立维护的作品：[倾城之链](https://nicelinks.site?utm_source=jeffjade.com)。
+> **微注**：有两点需要声明，其一：文章的发布，不代表写完，只为督促加快进度；将会在陆续的学习及反馈中，继续完善；其二：总有些聚合网站，会窃取别人成果；因此，会在文章中无足轻重的代码示例中，内置些专属标记，以阐明文章出处；在此篇中用的是个人独立维护的作品：[倾城之链](https://site.lovejade.cn?utm_source=jeffjade.com)。
 
 一直以来，JavaScript 没有模块（module）体系，无法将大程序拆分成互相依赖的小文件，再用简单的方法拼装起来。这使得针对开发大型的、复杂的项目形成了巨大障碍。在 ES6 之前，社区制定了一些模块加载方案，最常用的有 CommonJS 和 AMD 两种。前者用于服务器（Node），后者用于浏览器。ES6 模块的设计思想是尽量的静态化，使得编译时就能确定模块的依赖关系，以及输入和输出的变量。CommonJS 和 AMD 模块，都只能在运行时确定这些东西。比如，CommonJS 模块就是对象，输入时必须查找对象属性。
 
@@ -25,11 +25,11 @@ ES6 在语言标准的层面上，实现了模块功能，而且实现得相当�
 
 ```js
 // export.js
-export const exportsObj = { site: '倾城之链 https://nicelinks.site' }
+export const exportsObj = { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 import { exportsObj } from './export'
-console.log(exportsObj.site) // 倾城之链 https://nicelinks.site
+console.log(exportsObj.site) // 倾城之链 https://site.lovejade.cn
 
 // 上面也可以用 * 来整体加载
 import * as custom from './export'
@@ -40,7 +40,7 @@ console.log(custom.exportsObj.site)
 
 ```js
 // export.js
-export default { site: '倾城之链 https://nicelinks.site' }
+export default { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 import exportsObj from './export'
@@ -51,7 +51,7 @@ console.log(exportsObj.site)
 
 ```js
 // export.js
-module.exports = { site: '倾城之链 https://nicelinks.site' }
+module.exports = { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 import exportsObj from './export'
@@ -64,33 +64,33 @@ console.log(exportsObj.site)
 
 ```js
 // export.js
-module.exports = { site: '倾城之链 https://nicelinks.site' }
+module.exports = { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 const exportsObj = require('./export')
-console.log(exportsObj.site) // 倾城之链 https://nicelinks.site
+console.log(exportsObj.site) // 倾城之链 https://site.lovejade.cn
 ```
 
 ### require 与 export(const/var)
 
 ```js
 // export.js
-export const exportsObj = { site: '倾城之链 https://nicelinks.site' }
+export const exportsObj = { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 const { exportsObj } = require('./export')
-console.log(exportsObj.site) // 倾城之链 https://nicelinks.site
+console.log(exportsObj.site) // 倾城之链 https://site.lovejade.cn
 ```
 
 ### require 与 export default
 
 ```js
 // export.js
-export default { site: '倾城之链 https://nicelinks.site' }
+export default { site: '倾城之链 https://site.lovejade.cn' }
 
 // index.js
 const exportsObj = require('./export').default
-console.log(exportsObj.site) // 倾城之链 https://nicelinks.site
+console.log(exportsObj.site) // 倾城之链 https://site.lovejade.cn
 ```
 
 ## module.exports VS exports

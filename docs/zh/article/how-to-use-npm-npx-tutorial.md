@@ -13,7 +13,7 @@ meta:
 
 <!-- more -->
 
-![前端利器之 npx 使用纪要](https://image.nicelinks.site/node-npm-npx.jpg)
+![前端利器之 npx 使用纪要](https://image.lovejade.cn/node-npm-npx.jpg)
 
 ## 安装
 

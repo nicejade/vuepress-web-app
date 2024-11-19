@@ -13,7 +13,7 @@ meta:
 
 在使用 [Git](https://www.jeffjade.com/tags/Git/) 这款版本控制工具，来管理项目代码，蛮多的时候，会涉及到“删除 Git 仓库新增修改”这样的诉求；如果能快速优雅做到，将会促进开发效率；这篇文章即在于，从不同诉求角度，来逐一探讨：“如何快速删除 Git 仓库新增修改”。
 
-![如何快速删除 Git 仓库新增修改](https://image.nicelinks.site/how-to-quickly-delete-git-repository-new-changes.jpeg)
+![如何快速删除 Git 仓库新增修改](https://image.lovejade.cn/how-to-quickly-delete-git-repository-new-changes.jpeg)
 
 ## 只删除已追踪的文件
 

@@ -16,6 +16,12 @@ git init
 git add -A
 git commit -m 'deploy update 🎉'
 
+# 添加远程仓库
+git remote add origin git@github.com:nicejade/vuepress-web-app.git
+
+# 创建并切换到 master 分支
+git checkout -b master
+
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 

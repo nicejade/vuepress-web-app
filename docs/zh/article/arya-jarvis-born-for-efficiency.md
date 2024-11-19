@@ -11,11 +11,11 @@ meta:
 
 荀子在《劝学》曰：**君子生非异也，善假于物也**。对于重复而精确性的事物，理想的目标是：有贴心工具加以协助，使得可以用更便捷的方式处理；Github 创建仓库：[ARYA JARVIS](https://github.com/nicejade/arya-jarvis)，即是为此而做的尝试 ── 她**旨在为开发人员节省更多时间、精力以及体力**。而此篇文章的存在，介绍 [ARYA JARVIS](https://github.com/nicejade/arya-jarvis) 的同时，也分享下关于对**善假于物**的理解。
 
-![为高效而生：Arya Jarvis](https://image.nicelinks.site/arya-jarvis.jpg)
+![为高效而生：Arya Jarvis](https://image.lovejade.cn/arya-jarvis.jpg)
 
 原文首发于个人主博客：[为高效而生：Arya Jarvis](https://www.jeffjade.com/2019/08/25/156-arya-jarvis-born-for-efficiency/)。
 
-**温馨说明**：鉴于会在后续业余时光中，为 [Arya Jarvis](https://github.com/nicejade/arya-jarvis) 集成更多功能，以提升使用体验，而现在利用博文这种形式的介绍，未免有些欠佳；因此有采用 [docsify](https://nicelinks.site/post/5d4fec8c4c0a2404cc79f97a) 塑造一文档 ── [ARYA JARVIS DOC](https://arya.lovejade.cn/#/zh-cn?utm_source=jeffjade.com)，用以承载 `arya jarvis` 的使用说明，从而能更好服务用户；如您有任何建议或意见，欢迎留言反馈（与此同时，还维护有[更多工具作品](https://www.lovejade.cn/zh/works/)，如感兴趣，请移步试用）。
+**温馨说明**：鉴于会在后续业余时光中，为 [Arya Jarvis](https://github.com/nicejade/arya-jarvis) 集成更多功能，以提升使用体验，而现在利用博文这种形式的介绍，未免有些欠佳；因此有采用 [docsify](https://site.lovejade.cn/post/5d4fec8c4c0a2404cc79f97a) 塑造一文档 ── [ARYA JARVIS DOC](https://arya.lovejade.cn/#/zh-cn?utm_source=jeffjade.com)，用以承载 `arya jarvis` 的使用说明，从而能更好服务用户；如您有任何建议或意见，欢迎留言反馈（与此同时，还维护有[更多工具作品](https://www.lovejade.cn/zh/works/)，如感兴趣，请移步试用）。
 
 ## 故事起源
 
@@ -61,7 +61,7 @@ arya w .
 
 值得一提的是，本项目代码在开发时，格式美化就使用 `arya w .` 命令。感谢我自己业余时间自己开发此了 `arya jarvis` ，我超级喜欢。
 
-**温馨说明**：[Prettier](https://nicelinks.site/post/5c16083e819ae45de1453caa) 是一个有见识的代码格式化工具；使用它来美化，实在是再好不过，具体可以参见 [使用 ESLint ＆ Prettier 美化 Vue 代码](https://www.lovejade.cn/zh/article/beautify-vue-by-eslint-and-prettier.html)；曾多次为很多前端开发者安利 `Prettier`，却因各种原因，不被接纳 😇； 考虑到其配置可能略对某些人显复杂，也就诞生了一个想法：做一个工具，是开发者开箱即用，领略其中舒爽，可还有拒绝的理由？而如上两个命令即可对此想法的实践。针对微型或临时项目，此工具还是非常实用（对于中大型项目，建议自行在项目中配置）。
+**温馨说明**：[Prettier](https://site.lovejade.cn/post/5c16083e819ae45de1453caa) 是一个有见识的代码格式化工具；使用它来美化，实在是再好不过，具体可以参见 [使用 ESLint ＆ Prettier 美化 Vue 代码](https://www.lovejade.cn/zh/article/beautify-vue-by-eslint-and-prettier.html)；曾多次为很多前端开发者安利 `Prettier`，却因各种原因，不被接纳 😇； 考虑到其配置可能略对某些人显复杂，也就诞生了一个想法：做一个工具，是开发者开箱即用，领略其中舒爽，可还有拒绝的理由？而如上两个命令即可对此想法的实践。针对微型或临时项目，此工具还是非常实用（对于中大型项目，建议自行在项目中配置）。
 
 ##### 🌍 用于快速构建本地 Web 服务器
 
@@ -129,7 +129,7 @@ arya l
 
 ## 相关链接
 
-- [**倾城之链**](https://nicelinks.site?utm_source=lovejade.cn)
+- [**倾城之链**](https://site.lovejade.cn?utm_source=lovejade.cn)
 - [About Me](https://about.me/nicejade?utm_source=lovejade.cn)
 - [个人博客](https://jeffjade.com/nicelinks?utm_source=lovejade.cn)
 - [幽居空谷轩](http://www.lovejade.cn?utm_source=lovejade.cn)

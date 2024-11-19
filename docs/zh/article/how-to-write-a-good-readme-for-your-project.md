@@ -33,7 +33,7 @@ npx https://gist.github.com/nicejade/406f154e882a836de1b2e12d02b84aab zh
  <a href="https://github.com/nicejade/markdown-online-editor">  
  <img src="https://img.shields.io/github/license/nicejade/markdown-online-editor.svg" alt="LICENSE">  
  </a>  
- <a href="https://nicelinks.site/post/5c16083e819ae45de1453caa">  
+ <a href="https://site.lovejade.cn/post/5c16083e819ae45de1453caa">  
  <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="Prettier">  
  </a>  
  <a href="https://www.jeffjade.com/2019/05/31/155-arya-markdown-online-editor/">  

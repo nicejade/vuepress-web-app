@@ -155,18 +155,18 @@ this.$apis.xxx
 
 ### **使用此脚手架的线上项目**
 
-- [「倾城之链｜ NICE LINKS」](https://nicelinks.site?utm_source=vue-webpack)：一个开放平台，旨在云集全球优秀网站，探索互联网中更广阔的世界；在这里，你可以轻松发现、学习、分享更多有用或有趣的事物。
+- [「倾城之链｜ NICE LINKS」](https://site.lovejade.cn?utm_source=vue-webpack)：一个开放平台，旨在云集全球优秀网站，探索互联网中更广阔的世界；在这里，你可以轻松发现、学习、分享更多有用或有趣的事物。
 
 ### **项目待优化的那些方向**
 
 - **完善[单元测试](https://cn.vuejs.org/v2/guide/unit-testing.html)相关**；在代码层面，做好单元测试，有助于提升代码质量，从而使得项目质量、后续维护都可以更好。考虑将在之后的版本中，参考 [Vue Test Utils](https://vue-test-utils.vuejs.org/zh-cn/) 对这块儿进行完善。
-- **SEO 优化相关**；这是多方都应该考虑的问题；但在项目设计层面，可以考虑[服务端渲染](https://cn.vuejs.org/v2/guide/ssr.html)来极大提升 SEO （如：[Nuxt](https://github.com/nuxt/nuxt.js)）；但这对于已经处于开发阶段的项目，涉及需要更多的调整，相比于其他的可选方案。[「倾城之链｜ NICE LINKS」](https://nicelinks.site?utm_source=vue-webpack) 是基于 [prerender](https://github.com/prerender/prerender)，在 `nginx` 层面，针对浏览器作预渲染以优化 SEO，现在看起来效果可以。 另外可以选择的方案是运用 [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin)，在 `Webpack` 构建项目时预渲染静态 html 内容，；在未来版本中，会考虑针对这块儿给出一个相对折中的方案。
+- **SEO 优化相关**；这是多方都应该考虑的问题；但在项目设计层面，可以考虑[服务端渲染](https://cn.vuejs.org/v2/guide/ssr.html)来极大提升 SEO （如：[Nuxt](https://github.com/nuxt/nuxt.js)）；但这对于已经处于开发阶段的项目，涉及需要更多的调整，相比于其他的可选方案。[「倾城之链｜ NICE LINKS」](https://site.lovejade.cn?utm_source=vue-webpack) 是基于 [prerender](https://github.com/prerender/prerender)，在 `nginx` 层面，针对浏览器作预渲染以优化 SEO，现在看起来效果可以。 另外可以选择的方案是运用 [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin)，在 `Webpack` 构建项目时预渲染静态 html 内容，；在未来版本中，会考虑针对这块儿给出一个相对折中的方案。
 
 * **塑造更便捷的前端开发环境**；这里所言的`开箱即用`，仍需要在您已经安装高版本 `node` 的前提；这对于新晋开发着并不是友好；如果，您使用的是基于 `windows` 系统的环境，并不能保证这套脚手架可以很顺利运行(😌)；因此，有考虑借助 `Docker` 等工具，优化前端开发环境，使其可以更新便捷，而无需依赖更多。
 
 ### **写在最后的结语**
 
-对于分享，您的海量包容和意见建议，是促进彼此都能**更上一层楼**的关键。输出文字，总是比写代码辛苦的多；在付出多时的敲敲打打之后，希望可以得到您宝贵的意见和建议，使得此脚手架可以更进一步，以惠及到更多的人。最后，推荐您体验个人最新作品 ～ [`「倾城之链｜NICE LINKS」`](https://nicelinks.site?utm_source=vue-webpack)： **倾心缔造，痴心为你**，希望您会喜欢。
+对于分享，您的海量包容和意见建议，是促进彼此都能**更上一层楼**的关键。输出文字，总是比写代码辛苦的多；在付出多时的敲敲打打之后，希望可以得到您宝贵的意见和建议，使得此脚手架可以更进一步，以惠及到更多的人。最后，推荐您体验个人最新作品 ～ [`「倾城之链｜NICE LINKS」`](https://site.lovejade.cn?utm_source=vue-webpack)： **倾心缔造，痴心为你**，希望您会喜欢。
 
 @2018-05-13 于深圳.南山 Last Modify： 2018-05-20
 

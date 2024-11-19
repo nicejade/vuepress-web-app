@@ -11,11 +11,11 @@ meta:
 
 <!-- more -->
 
-**[快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)是基于手机硬件平台的新型应用形态，标准是由主流手机厂商组成的`快应用联盟`联合制定。其标准的诞生将在研发接口、能力接入、开发者服务等层面建设标准平台，以平台化的生态模式对个人开发者和企业开发者全品类开放。[快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)具备传统 APP 完整的应用体验，`无需安装、即点即用`；`覆盖 10 亿设备`，`与操作系统深度集成，探索新型应用场景`。快应用 ──**复杂生活的简单答案，让生活更顺畅\*\* ── 来自 [快应用官方网站 | 倾城之链](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)。
+**[快应用](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f)是基于手机硬件平台的新型应用形态，标准是由主流手机厂商组成的`快应用联盟`联合制定。其标准的诞生将在研发接口、能力接入、开发者服务等层面建设标准平台，以平台化的生态模式对个人开发者和企业开发者全品类开放。[快应用](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f)具备传统 APP 完整的应用体验，`无需安装、即点即用`；`覆盖 10 亿设备`，`与操作系统深度集成，探索新型应用场景`。快应用 ──**复杂生活的简单答案，让生活更顺畅\*\* ── 来自 [快应用官方网站 | 倾城之链](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f)。
 
-![快应用开发资源、教程汇聚](https://image.nicelinks.site/cool-background-red.png)
+![快应用开发资源、教程汇聚](https://image.lovejade.cn/cool-background-red.png)
 
-> 此篇在于云集最新[快应用](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)相关教程文章、开发资源、项目案例及新闻动态；为快应用开发者提供便利和参考；目前有在 [awesome-quickapp](https://github.com/nicejade/awesome-quickapp) 持续性维护、更新。
+> 此篇在于云集最新[快应用](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f)相关教程文章、开发资源、项目案例及新闻动态；为快应用开发者提供便利和参考；目前有在 [awesome-quickapp](https://github.com/nicejade/awesome-quickapp) 持续性维护、更新。
 
 ---
 
@@ -84,7 +84,7 @@ meta:
 ## 示例篇
 
 - [appreciate-poetry-quickapp](https://github.com/TheHumanComedy/appreciate-poetry-quickapp): <sub>🌊 一款精致用于欣赏古诗文的快应用。</sub>
-- [nicelinks-quick-app](https://github.com/nicejade/nicelinks-quick-app): <sub>🌪Awesome NICE LINKS（倾城之链 ) client built with quickapp. https://nicelinks.site/ </sub>
+- [nicelinks-quick-app](https://github.com/nicejade/nicelinks-quick-app): <sub>🌪Awesome NICE LINKS（倾城之链 ) client built with quickapp. https://site.lovejade.cn/ </sub>
 - [babySongQuickapp](https://github.com/lishuaixingNewBee/babySongQuickapp): <sub>熊宝儿歌故事集音乐、视频、育儿信息流的快应用。</sub>
 - [quickappcn/sample](https://github.com/quickappcn/sample): <sub>一个演示使用 quickapp 的项目，包括组件演示和 apis。 </sub>
 - [v2ex-quickapp](https://github.com/wotermelon/v2ex-quickapp): <sub>V2ex - 快应用</sub>
@@ -101,7 +101,7 @@ meta:
 
 - [快应用调试器](https://github.com/nicejade/awesome-quickapp/blob/master/resources/quickapp_debugger.apk.apk?raw=true)
 
-`快应用调试器`可以连接到手机系统内的快应用执行环境，可以让您方便调试[「快应用」](https://nicelinks.site/post/5b5fb5bc615bf842b609105f)程序。
+`快应用调试器`可以连接到手机系统内的快应用执行环境，可以让您方便调试[「快应用」](https://site.lovejade.cn/post/5b5fb5bc615bf842b609105f)程序。
 
 ### 快应用预览版
 
